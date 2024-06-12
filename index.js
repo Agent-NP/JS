@@ -111,12 +111,9 @@ function findMatchingMatches(matches1, matches2) {
                 areSimilarTeams(match1.homeTeam, match2.homeTeam)
             ) {
                 //Here is where the real money lies. Matches1 is sofascore, while matches2 is sportybet
-                if (match1.homeScore != match2.homeScore) {
+                if (match1.homeScore > match2.homeScore) {
                     matchingMatches.push(match1);
-                } else if (match1.awayScore != match2.awayScore) {
-                    matchingMatches.push(match1);
-                } else {
-                    // No free money
+                } else if (match1.awayScore > match2.awayScore) {
                     matchingMatches.push(match1);
                 }
             }
