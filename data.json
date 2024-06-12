@@ -1,0 +1,2188 @@
+{
+    "bizCode": 10000,
+    "message": "0#0",
+    "data": [
+        {
+            "id": "sr:tournament:323",
+            "name": "Emperor Cup",
+            "events": [
+                {
+                    "eventId": "sr:match:50101943",
+                    "gameId": "38173",
+                    "productStatus": "0#0",
+                    "estimateStartTime": 1718186400000,
+                    "status": 1,
+                    "setScore": "1:0",
+                    "gameScore": [
+                        "0:0",
+                        "1:0"
+                    ],
+                    "period": "2",
+                    "matchStatus": "H2",
+                    "playedSeconds": "89:05",
+                    "homeTeamName": "Ventforet Kofu",
+                    "awayTeamName": "Honda FC",
+                    "sport": {
+                        "id": "sr:sport:1",
+                        "name": "Football",
+                        "category": {
+                            "id": "sr:category:52",
+                            "name": "Japan",
+                            "tournament": {
+                                "id": "sr:tournament:323",
+                                "name": "Emperor Cup"
+                            }
+                        }
+                    },
+                    "totalMarketSize": 8,
+                    "markets": [
+                        {
+                            "id": "1",
+                            "product": 1,
+                            "desc": "1X2",
+                            "status": 0,
+                            "group": "Main",
+                            "groupId": "171121135724MGI11262166",
+                            "marketGuide": "Which team will win the match. Overtime not included.",
+                            "title": "1,X,2",
+                            "name": "1X2",
+                            "favourite": 0,
+                            "outcomes": [
+                                {
+                                    "id": "1",
+                                    "odds": "1.06",
+                                    "probability": "0.9058901969",
+                                    "isActive": 1,
+                                    "desc": "Home"
+                                },
+                                {
+                                    "id": "2",
+                                    "odds": "6.75",
+                                    "probability": "0.0899469208",
+                                    "isActive": 1,
+                                    "desc": "Draw"
+                                },
+                                {
+                                    "id": "3",
+                                    "odds": "100.00",
+                                    "probability": "0.0041628824",
+                                    "isActive": 1,
+                                    "desc": "Away"
+                                }
+                            ],
+                            "farNearOdds": 0
+                        },
+                        {
+                            "id": "18",
+                            "specifier": "total=0.5",
+                            "product": 1,
+                            "desc": "Over/Under",
+                            "status": 3,
+                            "group": "Main",
+                            "groupId": "171121135724MGI11262166",
+                            "marketGuide": "Predict whether the total number of goals scored in regular time is over/under a given line. Half line (0.5; 1.5; 2.5 etc.) can be settled as won or lost. The whole line (1; 2; 3 etc.) can be settled as won, lost or void. For further information please refer to the “How to Play” section.",
+                            "title": "Goals,Over,Under",
+                            "name": "Over/Under",
+                            "favourite": 1,
+                            "outcomes": [
+                                {
+                                    "id": "12",
+                                    "odds": "2.85",
+                                    "probability": "0.3027521504",
+                                    "isActive": 1,
+                                    "desc": "Over 0.5",
+                                    "isWinning": 1,
+                                    "refundFactor": 0
+                                },
+                                {
+                                    "id": "13",
+                                    "odds": "1.35",
+                                    "probability": "0.6972478496",
+                                    "isActive": 1,
+                                    "desc": "Under 0.5",
+                                    "isWinning": 0,
+                                    "refundFactor": 0
+                                }
+                            ],
+                            "farNearOdds": 0
+                        },
+                        {
+                            "id": "18",
+                            "specifier": "total=1.5",
+                            "product": 1,
+                            "desc": "Over/Under",
+                            "status": 2,
+                            "group": "Main",
+                            "groupId": "171121135724MGI11262166",
+                            "marketGuide": "Predict whether the total number of goals scored in regular time is over/under a given line. Half line (0.5; 1.5; 2.5 etc.) can be settled as won or lost. The whole line (1; 2; 3 etc.) can be settled as won, lost or void. For further information please refer to the “How to Play” section.",
+                            "title": "Goals,Over,Under",
+                            "name": "Over/Under",
+                            "favourite": 0,
+                            "outcomes": [
+                                {
+                                    "id": "12",
+                                    "odds": "3.35",
+                                    "probability": "0.2521122402",
+                                    "isActive": 1,
+                                    "desc": "Over 1.5"
+                                },
+                                {
+                                    "id": "13",
+                                    "odds": "1.27",
+                                    "probability": "0.7478877598",
+                                    "isActive": 1,
+                                    "desc": "Under 1.5"
+                                }
+                            ],
+                            "farNearOdds": 0
+                        },
+                        {
+                            "id": "18",
+                            "specifier": "total=2.5",
+                            "product": 1,
+                            "desc": "Over/Under",
+                            "status": 2,
+                            "group": "Main",
+                            "groupId": "171121135724MGI11262166",
+                            "marketGuide": "Predict whether the total number of goals scored in regular time is over/under a given line. Half line (0.5; 1.5; 2.5 etc.) can be settled as won or lost. The whole line (1; 2; 3 etc.) can be settled as won, lost or void. For further information please refer to the “How to Play” section.",
+                            "title": "Goals,Over,Under",
+                            "name": "Over/Under",
+                            "favourite": 0,
+                            "outcomes": [
+                                {
+                                    "id": "12",
+                                    "odds": "12.00",
+                                    "probability": "0.0144928500",
+                                    "isActive": 1,
+                                    "desc": "Over 2.5"
+                                },
+                                {
+                                    "id": "13",
+                                    "odds": "1.01",
+                                    "probability": "0.9855071500",
+                                    "isActive": 0,
+                                    "desc": "Under 2.5"
+                                }
+                            ],
+                            "farNearOdds": 0
+                        },
+                        {
+                            "id": "18",
+                            "specifier": "total=3.5",
+                            "product": 1,
+                            "desc": "Over/Under",
+                            "status": 2,
+                            "group": "Main",
+                            "groupId": "171121135724MGI11262166",
+                            "marketGuide": "Predict whether the total number of goals scored in regular time is over/under a given line. Half line (0.5; 1.5; 2.5 etc.) can be settled as won or lost. The whole line (1; 2; 3 etc.) can be settled as won, lost or void. For further information please refer to the “How to Play” section.",
+                            "title": "Goals,Over,Under",
+                            "name": "Over/Under",
+                            "favourite": 0,
+                            "outcomes": [
+                                {
+                                    "id": "12",
+                                    "odds": "12.50",
+                                    "probability": "0.0078862378",
+                                    "isActive": 1,
+                                    "desc": "Over 3.5"
+                                },
+                                {
+                                    "id": "13",
+                                    "odds": "1.01",
+                                    "probability": "0.9921137622",
+                                    "isActive": 0,
+                                    "desc": "Under 3.5"
+                                }
+                            ],
+                            "farNearOdds": 0
+                        },
+                        {
+                            "id": "18",
+                            "specifier": "total=4.5",
+                            "product": 1,
+                            "desc": "Over/Under",
+                            "status": 2,
+                            "group": "Main",
+                            "groupId": "171121135724MGI11262166",
+                            "marketGuide": "Predict whether the total number of goals scored in regular time is over/under a given line. Half line (0.5; 1.5; 2.5 etc.) can be settled as won or lost. The whole line (1; 2; 3 etc.) can be settled as won, lost or void. For further information please refer to the “How to Play” section.",
+                            "title": "Goals,Over,Under",
+                            "name": "Over/Under",
+                            "favourite": 0,
+                            "outcomes": [
+                                {
+                                    "id": "12",
+                                    "odds": "12.50",
+                                    "probability": "0.0011723272",
+                                    "isActive": 1,
+                                    "desc": "Over 4.5"
+                                },
+                                {
+                                    "id": "13",
+                                    "odds": "1.01",
+                                    "probability": "0.9988276728",
+                                    "isActive": 0,
+                                    "desc": "Under 4.5"
+                                }
+                            ],
+                            "farNearOdds": 0
+                        },
+                        {
+                            "id": "18",
+                            "specifier": "total=5.5",
+                            "product": 1,
+                            "desc": "Over/Under",
+                            "status": 2,
+                            "group": "Main",
+                            "groupId": "171121135724MGI11262166",
+                            "marketGuide": "Predict whether the total number of goals scored in regular time is over/under a given line. Half line (0.5; 1.5; 2.5 etc.) can be settled as won or lost. The whole line (1; 2; 3 etc.) can be settled as won, lost or void. For further information please refer to the “How to Play” section.",
+                            "title": "Goals,Over,Under",
+                            "name": "Over/Under",
+                            "favourite": 0,
+                            "outcomes": [
+                                {
+                                    "id": "12",
+                                    "odds": "8.50",
+                                    "probability": "0.0659326895",
+                                    "isActive": 1,
+                                    "desc": "Over 5.5"
+                                },
+                                {
+                                    "id": "13",
+                                    "odds": "1.04",
+                                    "probability": "0.9340673105",
+                                    "isActive": 1,
+                                    "desc": "Under 5.5"
+                                }
+                            ],
+                            "farNearOdds": 0
+                        },
+                        {
+                            "id": "10",
+                            "product": 1,
+                            "desc": "Double Chance",
+                            "status": 2,
+                            "group": "Main",
+                            "groupId": "171121135724MGI11262166",
+                            "marketGuide": "Predict the match result combining two of the three possible outcomes (1X, X2 or 12).",
+                            "title": "1X,12,X2",
+                            "name": "Double Chance",
+                            "favourite": 0,
+                            "outcomes": [
+                                {
+                                    "id": "9",
+                                    "odds": "1.06",
+                                    "probability": "0.9931459770",
+                                    "isActive": 0,
+                                    "desc": "Home or Draw"
+                                },
+                                {
+                                    "id": "10",
+                                    "odds": "1.07",
+                                    "probability": "0.8906835767",
+                                    "isActive": 1,
+                                    "desc": "Home or Away"
+                                },
+                                {
+                                    "id": "11",
+                                    "odds": "5.60",
+                                    "probability": "0.1161704463",
+                                    "isActive": 1,
+                                    "desc": "Draw or Away"
+                                }
+                            ],
+                            "farNearOdds": 0
+                        },
+                        {
+                            "id": "8",
+                            "specifier": "goalnr=1",
+                            "product": 1,
+                            "desc": "1st Goal",
+                            "status": 3,
+                            "group": "Main",
+                            "groupId": "171121135724MGI11262166",
+                            "marketGuide": "Predict which team will score the Nth goal in the match. Overtime not included.",
+                            "title": "1,None,2",
+                            "name": "Next Goal",
+                            "favourite": 0,
+                            "outcomes": [
+                                {
+                                    "id": "6",
+                                    "odds": "4.65",
+                                    "probability": "0.1662478593",
+                                    "isActive": 1,
+                                    "desc": "Home",
+                                    "isWinning": 1,
+                                    "refundFactor": 0
+                                },
+                                {
+                                    "id": "7",
+                                    "odds": "1.32",
+                                    "probability": "0.6972478496",
+                                    "isActive": 1,
+                                    "desc": "None",
+                                    "isWinning": 0,
+                                    "refundFactor": 0
+                                },
+                                {
+                                    "id": "8",
+                                    "odds": "5.60",
+                                    "probability": "0.1365042911",
+                                    "isActive": 1,
+                                    "desc": "Away",
+                                    "isWinning": 0,
+                                    "refundFactor": 0
+                                }
+                            ],
+                            "farNearOdds": 0
+                        },
+                        {
+                            "id": "8",
+                            "specifier": "goalnr=2",
+                            "product": 1,
+                            "desc": "2nd Goal",
+                            "status": 0,
+                            "group": "Main",
+                            "groupId": "171121135724MGI11262166",
+                            "marketGuide": "Predict which team will score the Nth goal in the match. Overtime not included.",
+                            "title": "1,None,2",
+                            "name": "Next Goal",
+                            "favourite": 1,
+                            "outcomes": [
+                                {
+                                    "id": "6",
+                                    "odds": "6.75",
+                                    "probability": "0.1016140317",
+                                    "isActive": 1,
+                                    "desc": "Home"
+                                },
+                                {
+                                    "id": "7",
+                                    "odds": "1.16",
+                                    "probability": "0.7999333298",
+                                    "isActive": 1,
+                                    "desc": "None"
+                                },
+                                {
+                                    "id": "8",
+                                    "odds": "7.00",
+                                    "probability": "0.0984526385",
+                                    "isActive": 1,
+                                    "desc": "Away"
+                                }
+                            ],
+                            "farNearOdds": 1
+                        },
+                        {
+                            "id": "14",
+                            "specifier": "hcp=0:1",
+                            "product": 1,
+                            "desc": "Handicap 0:1",
+                            "status": 2,
+                            "group": "Main",
+                            "groupId": "171121135724MGI11262166",
+                            "marketGuide": "Predict the winner in regular time taking in consideration the handicap in brackets. ",
+                            "title": "",
+                            "name": "Handicap",
+                            "favourite": 0,
+                            "outcomes": [
+                                {
+                                    "id": "1711",
+                                    "odds": "50.00",
+                                    "probability": "0.0148004007",
+                                    "isActive": 1,
+                                    "desc": "Home (0:1)"
+                                },
+                                {
+                                    "id": "1712",
+                                    "odds": "5.40",
+                                    "probability": "0.1401645791",
+                                    "isActive": 1,
+                                    "desc": "Draw (0:1)"
+                                },
+                                {
+                                    "id": "1713",
+                                    "odds": "1.14",
+                                    "probability": "0.8450350203",
+                                    "isActive": 1,
+                                    "desc": "Away (0:1)"
+                                }
+                            ],
+                            "farNearOdds": 0
+                        },
+                        {
+                            "id": "14",
+                            "specifier": "hcp=0:2",
+                            "product": 1,
+                            "desc": "Handicap 0:2",
+                            "status": 2,
+                            "group": "Main",
+                            "groupId": "171121135724MGI11262166",
+                            "marketGuide": "Predict the winner in regular time taking in consideration the handicap in brackets. ",
+                            "title": "",
+                            "name": "Handicap",
+                            "favourite": 0,
+                            "outcomes": [
+                                {
+                                    "id": "1711",
+                                    "odds": "50.00",
+                                    "probability": "0.0086472601",
+                                    "isActive": 1,
+                                    "desc": "Home (0:2)"
+                                },
+                                {
+                                    "id": "1712",
+                                    "odds": "6.25",
+                                    "probability": "0.1121289974",
+                                    "isActive": 1,
+                                    "desc": "Draw (0:2)"
+                                },
+                                {
+                                    "id": "1713",
+                                    "odds": "1.09",
+                                    "probability": "0.8792237426",
+                                    "isActive": 1,
+                                    "desc": "Away (0:2)"
+                                }
+                            ],
+                            "farNearOdds": 0
+                        },
+                        {
+                            "id": "14",
+                            "specifier": "hcp=0:3",
+                            "product": 1,
+                            "desc": "Handicap 0:3",
+                            "status": 2,
+                            "group": "Main",
+                            "groupId": "171121135724MGI11262166",
+                            "marketGuide": "Predict the winner in regular time taking in consideration the handicap in brackets. ",
+                            "title": "",
+                            "name": "Handicap",
+                            "favourite": 1,
+                            "outcomes": [
+                                {
+                                    "id": "1711",
+                                    "odds": "23.00",
+                                    "probability": "0.0283639260",
+                                    "isActive": 1,
+                                    "desc": "Home (0:3)"
+                                },
+                                {
+                                    "id": "1712",
+                                    "odds": "10.50",
+                                    "probability": "0.0609852995",
+                                    "isActive": 1,
+                                    "desc": "Draw (0:3)"
+                                },
+                                {
+                                    "id": "1713",
+                                    "odds": "1.06",
+                                    "probability": "0.9106507745",
+                                    "isActive": 1,
+                                    "desc": "Away (0:3)"
+                                }
+                            ],
+                            "farNearOdds": 0
+                        },
+                        {
+                            "id": "14",
+                            "specifier": "hcp=1:0",
+                            "product": 1,
+                            "desc": "Handicap 1:0",
+                            "status": 2,
+                            "group": "Main",
+                            "groupId": "171121135724MGI11262166",
+                            "marketGuide": "Predict the winner in regular time taking in consideration the handicap in brackets. ",
+                            "title": "",
+                            "name": "Handicap",
+                            "favourite": 0,
+                            "outcomes": [
+                                {
+                                    "id": "1711",
+                                    "odds": "1.16",
+                                    "probability": "0.8246803795",
+                                    "isActive": 1,
+                                    "desc": "Home (1:0)"
+                                },
+                                {
+                                    "id": "1712",
+                                    "odds": "5.30",
+                                    "probability": "0.1524918899",
+                                    "isActive": 1,
+                                    "desc": "Draw (1:0)"
+                                },
+                                {
+                                    "id": "1713",
+                                    "odds": "34.00",
+                                    "probability": "0.0228277306",
+                                    "isActive": 1,
+                                    "desc": "Away (1:0)"
+                                }
+                            ],
+                            "farNearOdds": 0
+                        },
+                        {
+                            "id": "14",
+                            "specifier": "hcp=2:0",
+                            "product": 1,
+                            "desc": "Handicap 2:0",
+                            "status": 2,
+                            "group": "Main",
+                            "groupId": "171121135724MGI11262166",
+                            "marketGuide": "Predict the winner in regular time taking in consideration the handicap in brackets. ",
+                            "title": "",
+                            "name": "Handicap",
+                            "favourite": 0,
+                            "outcomes": [
+                                {
+                                    "id": "1711",
+                                    "odds": "1.01",
+                                    "probability": "0.9771722694",
+                                    "isActive": 1,
+                                    "desc": "Home (2:0)"
+                                },
+                                {
+                                    "id": "1712",
+                                    "odds": "13.00",
+                                    "probability": "0.0207846954",
+                                    "isActive": 1,
+                                    "desc": "Draw (2:0)"
+                                },
+                                {
+                                    "id": "1713",
+                                    "odds": "50.00",
+                                    "probability": "0.0020430352",
+                                    "isActive": 1,
+                                    "desc": "Away (2:0)"
+                                }
+                            ],
+                            "farNearOdds": 0
+                        },
+                        {
+                            "id": "19",
+                            "specifier": "total=0.5",
+                            "product": 1,
+                            "desc": "Home Team Over/Under",
+                            "status": 3,
+                            "group": "Goals",
+                            "groupId": "171121144758MGI11271357",
+                            "marketGuide": "Predict whether the total number of goals scored by the Home team in regular time is over/under a given line.",
+                            "title": "",
+                            "name": "Home O/U",
+                            "favourite": 0,
+                            "outcomes": [
+                                {
+                                    "id": "12",
+                                    "odds": "4.35",
+                                    "probability": "0.1797848000",
+                                    "isActive": 1,
+                                    "desc": "Over 0.5",
+                                    "isWinning": 1,
+                                    "refundFactor": 0
+                                },
+                                {
+                                    "id": "13",
+                                    "odds": "1.16",
+                                    "probability": "0.8202152000",
+                                    "isActive": 1,
+                                    "desc": "Under 0.5",
+                                    "isWinning": 0,
+                                    "refundFactor": 0
+                                }
+                            ],
+                            "farNearOdds": 0
+                        },
+                        {
+                            "id": "19",
+                            "specifier": "total=1.5",
+                            "product": 1,
+                            "desc": "Home Team Over/Under",
+                            "status": 2,
+                            "group": "Goals",
+                            "groupId": "171121144758MGI11271357",
+                            "marketGuide": "Predict whether the total number of goals scored by the Home team in regular time is over/under a given line.",
+                            "title": "",
+                            "name": "Home O/U",
+                            "favourite": 0,
+                            "outcomes": [
+                                {
+                                    "id": "12",
+                                    "odds": "5.30",
+                                    "probability": "0.1370736080",
+                                    "isActive": 1,
+                                    "desc": "Over 1.5"
+                                },
+                                {
+                                    "id": "13",
+                                    "odds": "1.10",
+                                    "probability": "0.8629263920",
+                                    "isActive": 1,
+                                    "desc": "Under 1.5"
+                                }
+                            ],
+                            "farNearOdds": 0
+                        },
+                        {
+                            "id": "19",
+                            "specifier": "total=2.5",
+                            "product": 1,
+                            "desc": "Home Team Over/Under",
+                            "status": 2,
+                            "group": "Goals",
+                            "groupId": "171121144758MGI11271357",
+                            "marketGuide": "Predict whether the total number of goals scored by the Home team in regular time is over/under a given line.",
+                            "title": "",
+                            "name": "Home O/U",
+                            "favourite": 1,
+                            "outcomes": [
+                                {
+                                    "id": "12",
+                                    "odds": "3.95",
+                                    "probability": "0.2095423046",
+                                    "isActive": 1,
+                                    "desc": "Over 2.5"
+                                },
+                                {
+                                    "id": "13",
+                                    "odds": "1.20",
+                                    "probability": "0.7904576954",
+                                    "isActive": 1,
+                                    "desc": "Under 2.5"
+                                }
+                            ],
+                            "farNearOdds": 0
+                        },
+                        {
+                            "id": "20",
+                            "specifier": "total=0.5",
+                            "product": 1,
+                            "desc": "Away Team Over/Under",
+                            "status": 2,
+                            "group": "Goals",
+                            "groupId": "171121144758MGI11271357",
+                            "marketGuide": "Predict whether the total number of goals scored by Away team in regular time is over/under a given line.",
+                            "title": "",
+                            "name": "Away O/U",
+                            "favourite": 1,
+                            "outcomes": [
+                                {
+                                    "id": "12",
+                                    "odds": "5.40",
+                                    "probability": "0.1325075210",
+                                    "isActive": 1,
+                                    "desc": "Over 0.5"
+                                },
+                                {
+                                    "id": "13",
+                                    "odds": "1.10",
+                                    "probability": "0.8674924790",
+                                    "isActive": 1,
+                                    "desc": "Under 0.5"
+                                }
+                            ],
+                            "farNearOdds": 0
+                        },
+                        {
+                            "id": "20",
+                            "specifier": "total=1.5",
+                            "product": 1,
+                            "desc": "Away Team Over/Under",
+                            "status": 2,
+                            "group": "Goals",
+                            "groupId": "171121144758MGI11271357",
+                            "marketGuide": "Predict whether the total number of goals scored by Away team in regular time is over/under a given line.",
+                            "title": "",
+                            "name": "Away O/U",
+                            "favourite": 0,
+                            "outcomes": [
+                                {
+                                    "id": "12",
+                                    "odds": "12.00",
+                                    "probability": "0.0211348396",
+                                    "isActive": 1,
+                                    "desc": "Over 1.5"
+                                },
+                                {
+                                    "id": "13",
+                                    "odds": "1.01",
+                                    "probability": "0.9788651604",
+                                    "isActive": 1,
+                                    "desc": "Under 1.5"
+                                }
+                            ],
+                            "farNearOdds": 0
+                        },
+                        {
+                            "id": "29",
+                            "product": 1,
+                            "desc": "GG/NG",
+                            "status": 2,
+                            "group": "Main",
+                            "groupId": "171121135724MGI11262166",
+                            "marketGuide": "Predict whether both teams will score in the match at regular time. *Yes (GG both teams score) *No (NG any team not to score ).",
+                            "title": "GG,NG",
+                            "name": "GG/NG",
+                            "favourite": 0,
+                            "outcomes": [
+                                {
+                                    "id": "74",
+                                    "odds": "5.40",
+                                    "probability": "0.1325075210",
+                                    "isActive": 1,
+                                    "desc": "Yes"
+                                },
+                                {
+                                    "id": "76",
+                                    "odds": "1.10",
+                                    "probability": "0.8674924790",
+                                    "isActive": 1,
+                                    "desc": "No"
+                                }
+                            ],
+                            "farNearOdds": 0
+                        }
+                    ],
+                    "bookingStatus": "Booked",
+                    "topTeam": false,
+                    "commentsNum": 530,
+                    "topicId": 86491371,
+                    "giftGrabActivityResultVO": {
+                        "activityEnabled": false,
+                        "enabled": false
+                    },
+                    "bgEvent": false,
+                    "ai": false,
+                    "matchTrackerNotAllowed": false
+                },
+                {
+                    "eventId": "sr:match:50347615",
+                    "gameId": "37380",
+                    "productStatus": "0#0",
+                    "estimateStartTime": 1718186400000,
+                    "status": 1,
+                    "setScore": "2:0",
+                    "gameScore": [
+                        "1:0",
+                        "1:0"
+                    ],
+                    "period": "2",
+                    "matchStatus": "H2",
+                    "playedSeconds": "84:58",
+                    "homeTeamName": "Vissel Kobe",
+                    "awayTeamName": "Kataller Toyama",
+                    "sport": {
+                        "id": "sr:sport:1",
+                        "name": "Football",
+                        "category": {
+                            "id": "sr:category:52",
+                            "name": "Japan",
+                            "tournament": {
+                                "id": "sr:tournament:323",
+                                "name": "Emperor Cup"
+                            }
+                        }
+                    },
+                    "totalMarketSize": 35,
+                    "markets": [
+                        {
+                            "id": "1",
+                            "product": 1,
+                            "desc": "1X2",
+                            "status": 0,
+                            "group": "Main",
+                            "groupId": "171121135724MGI11262166",
+                            "marketGuide": "Which team will win the match. Overtime not included.",
+                            "title": "1,X,2",
+                            "name": "1X2",
+                            "favourite": 0,
+                            "outcomes": [
+                                {
+                                    "id": "1",
+                                    "odds": "1.06",
+                                    "probability": "0.9975080805",
+                                    "isActive": 0,
+                                    "desc": "Home"
+                                },
+                                {
+                                    "id": "2",
+                                    "odds": "10.50",
+                                    "probability": "0.0024237288",
+                                    "isActive": 1,
+                                    "desc": "Draw"
+                                },
+                                {
+                                    "id": "3",
+                                    "odds": "100.00",
+                                    "probability": "0.0000681906",
+                                    "isActive": 1,
+                                    "desc": "Away"
+                                }
+                            ],
+                            "farNearOdds": 0
+                        },
+                        {
+                            "id": "18",
+                            "specifier": "total=0.5",
+                            "product": 1,
+                            "desc": "Over/Under",
+                            "status": 3,
+                            "group": "Main",
+                            "groupId": "171121135724MGI11262166",
+                            "marketGuide": "Predict whether the total number of goals scored in regular time is over/under a given line. Half line (0.5; 1.5; 2.5 etc.) can be settled as won or lost. The whole line (1; 2; 3 etc.) can be settled as won, lost or void. For further information please refer to the “How to Play” section.",
+                            "title": "Goals,Over,Under",
+                            "name": "Over/Under",
+                            "favourite": 0,
+                            "outcomes": [
+                                {
+                                    "id": "12",
+                                    "odds": "1.05",
+                                    "probability": "0.9255314708",
+                                    "isActive": 1,
+                                    "desc": "Over 0.5",
+                                    "isWinning": 1,
+                                    "refundFactor": 0
+                                },
+                                {
+                                    "id": "13",
+                                    "odds": "8.00",
+                                    "probability": "0.0744685292",
+                                    "isActive": 1,
+                                    "desc": "Under 0.5",
+                                    "isWinning": 0,
+                                    "refundFactor": 0
+                                }
+                            ],
+                            "farNearOdds": 0
+                        },
+                        {
+                            "id": "18",
+                            "specifier": "total=1.5",
+                            "product": 1,
+                            "desc": "Over/Under",
+                            "status": 3,
+                            "group": "Main",
+                            "groupId": "171121135724MGI11262166",
+                            "marketGuide": "Predict whether the total number of goals scored in regular time is over/under a given line. Half line (0.5; 1.5; 2.5 etc.) can be settled as won or lost. The whole line (1; 2; 3 etc.) can be settled as won, lost or void. For further information please refer to the “How to Play” section.",
+                            "title": "Goals,Over,Under",
+                            "name": "Over/Under",
+                            "favourite": 0,
+                            "outcomes": [
+                                {
+                                    "id": "12",
+                                    "odds": "1.37",
+                                    "probability": "0.6930396652",
+                                    "isActive": 1,
+                                    "desc": "Over 1.5",
+                                    "isWinning": 1,
+                                    "refundFactor": 0
+                                },
+                                {
+                                    "id": "13",
+                                    "odds": "2.85",
+                                    "probability": "0.3069603348",
+                                    "isActive": 1,
+                                    "desc": "Under 1.5",
+                                    "isWinning": 0,
+                                    "refundFactor": 0
+                                }
+                            ],
+                            "farNearOdds": 0
+                        },
+                        {
+                            "id": "18",
+                            "specifier": "total=2.5",
+                            "product": 1,
+                            "desc": "Over/Under",
+                            "status": 0,
+                            "group": "Main",
+                            "groupId": "171121135724MGI11262166",
+                            "marketGuide": "Predict whether the total number of goals scored in regular time is over/under a given line. Half line (0.5; 1.5; 2.5 etc.) can be settled as won or lost. The whole line (1; 2; 3 etc.) can be settled as won, lost or void. For further information please refer to the “How to Play” section.",
+                            "title": "Goals,Over,Under",
+                            "name": "Over/Under",
+                            "favourite": 1,
+                            "outcomes": [
+                                {
+                                    "id": "12",
+                                    "odds": "2.85",
+                                    "probability": "0.3026050713",
+                                    "isActive": 1,
+                                    "desc": "Over 2.5"
+                                },
+                                {
+                                    "id": "13",
+                                    "odds": "1.35",
+                                    "probability": "0.6973949287",
+                                    "isActive": 1,
+                                    "desc": "Under 2.5"
+                                }
+                            ],
+                            "farNearOdds": 1
+                        },
+                        {
+                            "id": "18",
+                            "specifier": "total=3.5",
+                            "product": 1,
+                            "desc": "Over/Under",
+                            "status": 2,
+                            "group": "Main",
+                            "groupId": "171121135724MGI11262166",
+                            "marketGuide": "Predict whether the total number of goals scored in regular time is over/under a given line. Half line (0.5; 1.5; 2.5 etc.) can be settled as won or lost. The whole line (1; 2; 3 etc.) can be settled as won, lost or void. For further information please refer to the “How to Play” section.",
+                            "title": "Goals,Over,Under",
+                            "name": "Over/Under",
+                            "favourite": 0,
+                            "outcomes": [
+                                {
+                                    "id": "12",
+                                    "odds": "6.50",
+                                    "probability": "0.1105629467",
+                                    "isActive": 1,
+                                    "desc": "Over 3.5"
+                                },
+                                {
+                                    "id": "13",
+                                    "odds": "1.08",
+                                    "probability": "0.8894370533",
+                                    "isActive": 1,
+                                    "desc": "Under 3.5"
+                                }
+                            ],
+                            "farNearOdds": 0
+                        },
+                        {
+                            "id": "18",
+                            "specifier": "total=4.5",
+                            "product": 1,
+                            "desc": "Over/Under",
+                            "status": 2,
+                            "group": "Main",
+                            "groupId": "171121135724MGI11262166",
+                            "marketGuide": "Predict whether the total number of goals scored in regular time is over/under a given line. Half line (0.5; 1.5; 2.5 etc.) can be settled as won or lost. The whole line (1; 2; 3 etc.) can be settled as won, lost or void. For further information please refer to the “How to Play” section.",
+                            "title": "Goals,Over,Under",
+                            "name": "Over/Under",
+                            "favourite": 0,
+                            "outcomes": [
+                                {
+                                    "id": "12",
+                                    "odds": "12.00",
+                                    "probability": "0.0197993057",
+                                    "isActive": 1,
+                                    "desc": "Over 4.5"
+                                },
+                                {
+                                    "id": "13",
+                                    "odds": "1.01",
+                                    "probability": "0.9802006943",
+                                    "isActive": 0,
+                                    "desc": "Under 4.5"
+                                }
+                            ],
+                            "farNearOdds": 0
+                        },
+                        {
+                            "id": "18",
+                            "specifier": "total=5.5",
+                            "product": 1,
+                            "desc": "Over/Under",
+                            "status": 2,
+                            "group": "Main",
+                            "groupId": "171121135724MGI11262166",
+                            "marketGuide": "Predict whether the total number of goals scored in regular time is over/under a given line. Half line (0.5; 1.5; 2.5 etc.) can be settled as won or lost. The whole line (1; 2; 3 etc.) can be settled as won, lost or void. For further information please refer to the “How to Play” section.",
+                            "title": "Goals,Over,Under",
+                            "name": "Over/Under",
+                            "favourite": 0,
+                            "outcomes": [
+                                {
+                                    "id": "12",
+                                    "odds": "12.00",
+                                    "probability": "0.0120226601",
+                                    "isActive": 1,
+                                    "desc": "Over 5.5"
+                                },
+                                {
+                                    "id": "13",
+                                    "odds": "1.01",
+                                    "probability": "0.9879773399",
+                                    "isActive": 0,
+                                    "desc": "Under 5.5"
+                                }
+                            ],
+                            "farNearOdds": 0
+                        },
+                        {
+                            "id": "18",
+                            "specifier": "total=6.5",
+                            "product": 1,
+                            "desc": "Over/Under",
+                            "status": 2,
+                            "group": "Main",
+                            "groupId": "171121135724MGI11262166",
+                            "marketGuide": "Predict whether the total number of goals scored in regular time is over/under a given line. Half line (0.5; 1.5; 2.5 etc.) can be settled as won or lost. The whole line (1; 2; 3 etc.) can be settled as won, lost or void. For further information please refer to the “How to Play” section.",
+                            "title": "Goals,Over,Under",
+                            "name": "Over/Under",
+                            "favourite": 0,
+                            "outcomes": [
+                                {
+                                    "id": "12",
+                                    "odds": "12.50",
+                                    "probability": "0.0020265199",
+                                    "isActive": 1,
+                                    "desc": "Over 6.5"
+                                },
+                                {
+                                    "id": "13",
+                                    "odds": "0.00",
+                                    "probability": "0.9979734801",
+                                    "isActive": 0,
+                                    "desc": "Under 6.5"
+                                }
+                            ],
+                            "farNearOdds": 0
+                        },
+                        {
+                            "id": "10",
+                            "product": 1,
+                            "desc": "Double Chance",
+                            "status": 0,
+                            "group": "Main",
+                            "groupId": "171121135724MGI11262166",
+                            "marketGuide": "Predict the match result combining two of the three possible outcomes (1X, X2 or 12).",
+                            "title": "1X,12,X2",
+                            "name": "Double Chance",
+                            "favourite": 0,
+                            "outcomes": [
+                                {
+                                    "id": "9",
+                                    "odds": "1.02",
+                                    "probability": "0.9999318094",
+                                    "isActive": 0,
+                                    "desc": "Home or Draw"
+                                },
+                                {
+                                    "id": "10",
+                                    "odds": "1.04",
+                                    "probability": "0.9975762712",
+                                    "isActive": 0,
+                                    "desc": "Home or Away"
+                                },
+                                {
+                                    "id": "11",
+                                    "odds": "9.50",
+                                    "probability": "0.0024919195",
+                                    "isActive": 1,
+                                    "desc": "Draw or Away"
+                                }
+                            ],
+                            "farNearOdds": 0
+                        },
+                        {
+                            "id": "8",
+                            "specifier": "goalnr=1",
+                            "product": 1,
+                            "desc": "1st Goal",
+                            "status": 3,
+                            "group": "Main",
+                            "groupId": "171121135724MGI11262166",
+                            "marketGuide": "Predict which team will score the Nth goal in the match. Overtime not included.",
+                            "title": "1,None,2",
+                            "name": "Next Goal",
+                            "favourite": 0,
+                            "outcomes": [
+                                {
+                                    "id": "6",
+                                    "odds": "1.27",
+                                    "probability": "0.7340456049",
+                                    "isActive": 1,
+                                    "desc": "Home",
+                                    "isWinning": 1,
+                                    "refundFactor": 0
+                                },
+                                {
+                                    "id": "7",
+                                    "odds": "10.50",
+                                    "probability": "0.0744685292",
+                                    "isActive": 1,
+                                    "desc": "None",
+                                    "isWinning": 0,
+                                    "refundFactor": 0
+                                },
+                                {
+                                    "id": "8",
+                                    "odds": "4.20",
+                                    "probability": "0.1914858658",
+                                    "isActive": 1,
+                                    "desc": "Away",
+                                    "isWinning": 0,
+                                    "refundFactor": 0
+                                }
+                            ],
+                            "farNearOdds": 0
+                        },
+                        {
+                            "id": "8",
+                            "specifier": "goalnr=2",
+                            "product": 1,
+                            "desc": "2nd Goal",
+                            "status": 3,
+                            "group": "Main",
+                            "groupId": "171121135724MGI11262166",
+                            "marketGuide": "Predict which team will score the Nth goal in the match. Overtime not included.",
+                            "title": "1,None,2",
+                            "name": "Next Goal",
+                            "favourite": 0,
+                            "outcomes": [
+                                {
+                                    "id": "6",
+                                    "odds": "1.65",
+                                    "probability": "0.5526198597",
+                                    "isActive": 1,
+                                    "desc": "Home",
+                                    "isWinning": 1,
+                                    "refundFactor": 0
+                                },
+                                {
+                                    "id": "7",
+                                    "odds": "2.85",
+                                    "probability": "0.3069603348",
+                                    "isActive": 1,
+                                    "desc": "None",
+                                    "isWinning": 0,
+                                    "refundFactor": 0
+                                },
+                                {
+                                    "id": "8",
+                                    "odds": "6.00",
+                                    "probability": "0.1404198055",
+                                    "isActive": 1,
+                                    "desc": "Away",
+                                    "isWinning": 0,
+                                    "refundFactor": 0
+                                }
+                            ],
+                            "farNearOdds": 0
+                        },
+                        {
+                            "id": "8",
+                            "specifier": "goalnr=3",
+                            "product": 1,
+                            "desc": "3rd Goal",
+                            "status": 0,
+                            "group": "Main",
+                            "groupId": "171121135724MGI11262166",
+                            "marketGuide": "Predict which team will score the Nth goal in the match. Overtime not included.",
+                            "title": "1,None,2",
+                            "name": "Next Goal",
+                            "favourite": 1,
+                            "outcomes": [
+                                {
+                                    "id": "6",
+                                    "odds": "3.40",
+                                    "probability": "0.2327351072",
+                                    "isActive": 1,
+                                    "desc": "Home"
+                                },
+                                {
+                                    "id": "7",
+                                    "odds": "1.32",
+                                    "probability": "0.6973949287",
+                                    "isActive": 1,
+                                    "desc": "None"
+                                },
+                                {
+                                    "id": "8",
+                                    "odds": "10.50",
+                                    "probability": "0.0698699641",
+                                    "isActive": 1,
+                                    "desc": "Away"
+                                }
+                            ],
+                            "farNearOdds": 1
+                        },
+                        {
+                            "id": "14",
+                            "specifier": "hcp=0:1",
+                            "product": 1,
+                            "desc": "Handicap 0:1",
+                            "status": 2,
+                            "group": "Main",
+                            "groupId": "171121135724MGI11262166",
+                            "marketGuide": "Predict the winner in regular time taking in consideration the handicap in brackets. ",
+                            "title": "",
+                            "name": "Handicap",
+                            "favourite": 0,
+                            "outcomes": [
+                                {
+                                    "id": "1711",
+                                    "odds": "1.07",
+                                    "probability": "0.9054908374",
+                                    "isActive": 1,
+                                    "desc": "Home (0:1)"
+                                },
+                                {
+                                    "id": "1712",
+                                    "odds": "7.75",
+                                    "probability": "0.0868532619",
+                                    "isActive": 1,
+                                    "desc": "Draw (0:1)"
+                                },
+                                {
+                                    "id": "1713",
+                                    "odds": "50.00",
+                                    "probability": "0.0076559007",
+                                    "isActive": 1,
+                                    "desc": "Away (0:1)"
+                                }
+                            ],
+                            "farNearOdds": 0
+                        },
+                        {
+                            "id": "14",
+                            "specifier": "hcp=0:2",
+                            "product": 1,
+                            "desc": "Handicap 0:2",
+                            "status": 2,
+                            "group": "Main",
+                            "groupId": "171121135724MGI11262166",
+                            "marketGuide": "Predict the winner in regular time taking in consideration the handicap in brackets. ",
+                            "title": "",
+                            "name": "Handicap",
+                            "favourite": 0,
+                            "outcomes": [
+                                {
+                                    "id": "1711",
+                                    "odds": "4.40",
+                                    "probability": "0.2052803077",
+                                    "isActive": 1,
+                                    "desc": "Home (0:2)"
+                                },
+                                {
+                                    "id": "1712",
+                                    "odds": "2.85",
+                                    "probability": "0.3220767764",
+                                    "isActive": 1,
+                                    "desc": "Draw (0:2)"
+                                },
+                                {
+                                    "id": "1713",
+                                    "odds": "2.00",
+                                    "probability": "0.4726429159",
+                                    "isActive": 1,
+                                    "desc": "Away (0:2)"
+                                }
+                            ],
+                            "farNearOdds": 0
+                        },
+                        {
+                            "id": "14",
+                            "specifier": "hcp=0:3",
+                            "product": 1,
+                            "desc": "Handicap 0:3",
+                            "status": 0,
+                            "group": "Main",
+                            "groupId": "171121135724MGI11262166",
+                            "marketGuide": "Predict the winner in regular time taking in consideration the handicap in brackets. ",
+                            "title": "",
+                            "name": "Handicap",
+                            "favourite": 1,
+                            "outcomes": [
+                                {
+                                    "id": "1711",
+                                    "odds": "27.00",
+                                    "probability": "0.0295408042",
+                                    "isActive": 1,
+                                    "desc": "Home (0:3)"
+                                },
+                                {
+                                    "id": "1712",
+                                    "odds": "4.20",
+                                    "probability": "0.1957033330",
+                                    "isActive": 1,
+                                    "desc": "Draw (0:3)"
+                                },
+                                {
+                                    "id": "1713",
+                                    "odds": "1.22",
+                                    "probability": "0.7747558628",
+                                    "isActive": 1,
+                                    "desc": "Away (0:3)"
+                                }
+                            ],
+                            "farNearOdds": 1
+                        },
+                        {
+                            "id": "14",
+                            "specifier": "hcp=0:4",
+                            "product": 1,
+                            "desc": "Handicap 0:4",
+                            "status": 2,
+                            "group": "Main",
+                            "groupId": "171121135724MGI11262166",
+                            "marketGuide": "Predict the winner in regular time taking in consideration the handicap in brackets. ",
+                            "title": "",
+                            "name": "Handicap",
+                            "favourite": 0,
+                            "outcomes": [
+                                {
+                                    "id": "1711",
+                                    "odds": "40.00",
+                                    "probability": "0.0152281612",
+                                    "isActive": 1,
+                                    "desc": "Home (0:4)"
+                                },
+                                {
+                                    "id": "1712",
+                                    "odds": "8.75",
+                                    "probability": "0.0740467103",
+                                    "isActive": 1,
+                                    "desc": "Draw (0:4)"
+                                },
+                                {
+                                    "id": "1713",
+                                    "odds": "1.06",
+                                    "probability": "0.9107251285",
+                                    "isActive": 1,
+                                    "desc": "Away (0:4)"
+                                }
+                            ],
+                            "farNearOdds": 0
+                        },
+                        {
+                            "id": "14",
+                            "specifier": "hcp=0:5",
+                            "product": 1,
+                            "desc": "Handicap 0:5",
+                            "status": 2,
+                            "group": "Main",
+                            "groupId": "171121135724MGI11262166",
+                            "marketGuide": "Predict the winner in regular time taking in consideration the handicap in brackets. ",
+                            "title": "",
+                            "name": "Handicap",
+                            "favourite": 0,
+                            "outcomes": [
+                                {
+                                    "id": "1711",
+                                    "odds": "50.00",
+                                    "probability": "0.0019906766",
+                                    "isActive": 1,
+                                    "desc": "Home (0:5)"
+                                },
+                                {
+                                    "id": "1712",
+                                    "odds": "14.00",
+                                    "probability": "0.0132374846",
+                                    "isActive": 1,
+                                    "desc": "Draw (0:5)"
+                                },
+                                {
+                                    "id": "1713",
+                                    "odds": "1.01",
+                                    "probability": "0.9847718388",
+                                    "isActive": 0,
+                                    "desc": "Away (0:5)"
+                                }
+                            ],
+                            "farNearOdds": 0
+                        },
+                        {
+                            "id": "14",
+                            "specifier": "hcp=1:0",
+                            "product": 1,
+                            "desc": "Handicap 1:0",
+                            "status": 2,
+                            "group": "Main",
+                            "groupId": "171121135724MGI11262166",
+                            "marketGuide": "Predict the winner in regular time taking in consideration the handicap in brackets. ",
+                            "title": "",
+                            "name": "Handicap",
+                            "favourite": 0,
+                            "outcomes": [
+                                {
+                                    "id": "1711",
+                                    "odds": "1.47",
+                                    "probability": "0.6467800000",
+                                    "isActive": 1,
+                                    "desc": "Home (1:0)"
+                                },
+                                {
+                                    "id": "1712",
+                                    "odds": "4.25",
+                                    "probability": "0.2079400000",
+                                    "isActive": 1,
+                                    "desc": "Draw (1:0)"
+                                },
+                                {
+                                    "id": "1713",
+                                    "odds": "6.00",
+                                    "probability": "0.1452800000",
+                                    "isActive": 1,
+                                    "desc": "Away (1:0)"
+                                }
+                            ],
+                            "farNearOdds": 0
+                        },
+                        {
+                            "id": "14",
+                            "specifier": "hcp=2:0",
+                            "product": 1,
+                            "desc": "Handicap  2:0",
+                            "status": 2,
+                            "group": "Main",
+                            "groupId": "171121135724MGI11262166",
+                            "marketGuide": "Predict the winner in regular time taking in consideration the handicap in brackets. ",
+                            "title": "",
+                            "name": "Handicap",
+                            "favourite": 0,
+                            "outcomes": [
+                                {
+                                    "id": "1711",
+                                    "odds": "1.13",
+                                    "probability": "0.8547100000",
+                                    "isActive": 1,
+                                    "desc": "Home (2:0)"
+                                },
+                                {
+                                    "id": "1712",
+                                    "odds": "8.00",
+                                    "probability": "0.0974100000",
+                                    "isActive": 1,
+                                    "desc": "Draw (2:0)"
+                                },
+                                {
+                                    "id": "1713",
+                                    "odds": "14.50",
+                                    "probability": "0.0478700000",
+                                    "isActive": 1,
+                                    "desc": "Away (2:0)"
+                                }
+                            ],
+                            "farNearOdds": 0
+                        },
+                        {
+                            "id": "19",
+                            "specifier": "total=0.5",
+                            "product": 1,
+                            "desc": "Home Team Over/Under",
+                            "status": 3,
+                            "group": "Goals",
+                            "groupId": "171121144758MGI11271357",
+                            "marketGuide": "Predict whether the total number of goals scored by the Home team in regular time is over/under a given line.",
+                            "title": "",
+                            "name": "Home O/U",
+                            "favourite": 0,
+                            "outcomes": [
+                                {
+                                    "id": "12",
+                                    "odds": "1.31",
+                                    "probability": "0.7213900000",
+                                    "isActive": 1,
+                                    "desc": "Over 0.5",
+                                    "isWinning": 1,
+                                    "refundFactor": 0
+                                },
+                                {
+                                    "id": "13",
+                                    "odds": "3.15",
+                                    "probability": "0.2786100000",
+                                    "isActive": 1,
+                                    "desc": "Under 0.5",
+                                    "isWinning": 0,
+                                    "refundFactor": 0
+                                }
+                            ],
+                            "farNearOdds": 0
+                        },
+                        {
+                            "id": "19",
+                            "specifier": "total=1.5",
+                            "product": 1,
+                            "desc": "Home Team Over/Under",
+                            "status": 3,
+                            "group": "Goals",
+                            "groupId": "171121144758MGI11271357",
+                            "marketGuide": "Predict whether the total number of goals scored by the Home team in regular time is over/under a given line.",
+                            "title": "",
+                            "name": "Home O/U",
+                            "favourite": 0,
+                            "outcomes": [
+                                {
+                                    "id": "12",
+                                    "odds": "1.55",
+                                    "probability": "0.6088779373",
+                                    "isActive": 1,
+                                    "desc": "Over 1.5",
+                                    "isWinning": 1,
+                                    "refundFactor": 0
+                                },
+                                {
+                                    "id": "13",
+                                    "odds": "2.30",
+                                    "probability": "0.3911220627",
+                                    "isActive": 1,
+                                    "desc": "Under 1.5",
+                                    "isWinning": 0,
+                                    "refundFactor": 0
+                                }
+                            ],
+                            "farNearOdds": 0
+                        },
+                        {
+                            "id": "19",
+                            "specifier": "total=2.5",
+                            "product": 1,
+                            "desc": "Home Team Over/Under",
+                            "status": 0,
+                            "group": "Goals",
+                            "groupId": "171121144758MGI11271357",
+                            "marketGuide": "Predict whether the total number of goals scored by the Home team in regular time is over/under a given line.",
+                            "title": "",
+                            "name": "Home O/U",
+                            "favourite": 1,
+                            "outcomes": [
+                                {
+                                    "id": "12",
+                                    "odds": "3.45",
+                                    "probability": "0.2420454070",
+                                    "isActive": 1,
+                                    "desc": "Over 2.5"
+                                },
+                                {
+                                    "id": "13",
+                                    "odds": "1.25",
+                                    "probability": "0.7579545930",
+                                    "isActive": 1,
+                                    "desc": "Under 2.5"
+                                }
+                            ],
+                            "farNearOdds": 1
+                        },
+                        {
+                            "id": "19",
+                            "specifier": "total=3.5",
+                            "product": 1,
+                            "desc": "Home Team Over/Under",
+                            "status": 2,
+                            "group": "Goals",
+                            "groupId": "171121144758MGI11271357",
+                            "marketGuide": "Predict whether the total number of goals scored by the Home team in regular time is over/under a given line.",
+                            "title": "",
+                            "name": "Home O/U",
+                            "favourite": 0,
+                            "outcomes": [
+                                {
+                                    "id": "12",
+                                    "odds": "8.25",
+                                    "probability": "0.0697535751",
+                                    "isActive": 1,
+                                    "desc": "Over 3.5"
+                                },
+                                {
+                                    "id": "13",
+                                    "odds": "1.04",
+                                    "probability": "0.9302464249",
+                                    "isActive": 1,
+                                    "desc": "Under 3.5"
+                                }
+                            ],
+                            "farNearOdds": 0
+                        },
+                        {
+                            "id": "20",
+                            "specifier": "total=0.5",
+                            "product": 1,
+                            "desc": "Away Team Over/Under",
+                            "status": 0,
+                            "group": "Goals",
+                            "groupId": "171121144758MGI11271357",
+                            "marketGuide": "Predict whether the total number of goals scored by Away team in regular time is over/under a given line.",
+                            "title": "",
+                            "name": "Away O/U",
+                            "favourite": 1,
+                            "outcomes": [
+                                {
+                                    "id": "12",
+                                    "odds": "7.25",
+                                    "probability": "0.0797984744",
+                                    "isActive": 1,
+                                    "desc": "Over 0.5"
+                                },
+                                {
+                                    "id": "13",
+                                    "odds": "1.05",
+                                    "probability": "0.9202015256",
+                                    "isActive": 1,
+                                    "desc": "Under 0.5"
+                                }
+                            ],
+                            "farNearOdds": 1
+                        },
+                        {
+                            "id": "20",
+                            "specifier": "total=1.5",
+                            "product": 1,
+                            "desc": "Away Team Over/Under",
+                            "status": 2,
+                            "group": "Goals",
+                            "groupId": "171121144758MGI11271357",
+                            "marketGuide": "Predict whether the total number of goals scored by Away team in regular time is over/under a given line.",
+                            "title": "",
+                            "name": "Away O/U",
+                            "favourite": 0,
+                            "outcomes": [
+                                {
+                                    "id": "12",
+                                    "odds": "12.50",
+                                    "probability": "0.0083595844",
+                                    "isActive": 1,
+                                    "desc": "Over 1.5"
+                                },
+                                {
+                                    "id": "13",
+                                    "odds": "1.01",
+                                    "probability": "0.9916404156",
+                                    "isActive": 0,
+                                    "desc": "Under 1.5"
+                                }
+                            ],
+                            "farNearOdds": 0
+                        },
+                        {
+                            "id": "29",
+                            "product": 1,
+                            "desc": "GG/NG",
+                            "status": 0,
+                            "group": "Main",
+                            "groupId": "171121135724MGI11262166",
+                            "marketGuide": "Predict whether both teams will score in the match at regular time. *Yes (GG both teams score) *No (NG any team not to score ).",
+                            "title": "GG,NG",
+                            "name": "GG/NG",
+                            "favourite": 0,
+                            "outcomes": [
+                                {
+                                    "id": "74",
+                                    "odds": "7.25",
+                                    "probability": "0.0797984744",
+                                    "isActive": 1,
+                                    "desc": "Yes"
+                                },
+                                {
+                                    "id": "76",
+                                    "odds": "1.05",
+                                    "probability": "0.9202015256",
+                                    "isActive": 1,
+                                    "desc": "No"
+                                }
+                            ],
+                            "farNearOdds": 0
+                        }
+                    ],
+                    "bookingStatus": "Booked",
+                    "topTeam": true,
+                    "commentsNum": 350,
+                    "topicId": 51571203,
+                    "giftGrabActivityResultVO": {
+                        "activityEnabled": false,
+                        "enabled": false
+                    },
+                    "bgEvent": false,
+                    "ai": false,
+                    "matchTrackerNotAllowed": false
+                }
+            ],
+            "categoryName": "Japan",
+            "categoryId": "sr:category:52"
+        },
+        {
+            "id": "sr:simple_tournament:100734",
+            "name": "National League",
+            "events": [
+                {
+                    "eventId": "sr:match:50508703",
+                    "gameId": "38142",
+                    "productStatus": "0#0",
+                    "estimateStartTime": 1718191800000,
+                    "status": 1,
+                    "setScore": "0:0",
+                    "gameScore": [
+                        "0:0"
+                    ],
+                    "period": "1",
+                    "matchStatus": "H1",
+                    "playedSeconds": "19:33",
+                    "homeTeamName": "Ikorodu City",
+                    "awayTeamName": "Madiba FC",
+                    "sport": {
+                        "id": "sr:sport:1",
+                        "name": "Football",
+                        "category": {
+                            "id": "sr:category:532",
+                            "name": "Nigeria",
+                            "tournament": {
+                                "id": "sr:simple_tournament:100734",
+                                "name": "National League"
+                            }
+                        }
+                    },
+                    "totalMarketSize": 58,
+                    "markets": [
+                        {
+                            "id": "1",
+                            "product": 1,
+                            "desc": "1X2",
+                            "status": 0,
+                            "group": "Main",
+                            "groupId": "171121135724MGI11262166",
+                            "marketGuide": "Which team will win the match. Overtime not included.",
+                            "title": "1,X,2",
+                            "name": "1X2",
+                            "favourite": 0,
+                            "outcomes": [
+                                {
+                                    "id": "1",
+                                    "odds": "2.90",
+                                    "probability": "0.3096696026",
+                                    "isActive": 1,
+                                    "desc": "Home"
+                                },
+                                {
+                                    "id": "2",
+                                    "odds": "2.75",
+                                    "probability": "0.3318570131",
+                                    "isActive": 1,
+                                    "desc": "Draw"
+                                },
+                                {
+                                    "id": "3",
+                                    "odds": "2.55",
+                                    "probability": "0.3584733842",
+                                    "isActive": 1,
+                                    "desc": "Away"
+                                }
+                            ],
+                            "farNearOdds": 0
+                        },
+                        {
+                            "id": "18",
+                            "specifier": "total=1.5",
+                            "product": 1,
+                            "desc": "Over/Under",
+                            "status": 0,
+                            "group": "Main",
+                            "groupId": "171121135724MGI11262166",
+                            "marketGuide": "Predict whether the total number of goals scored in regular time is over/under a given line. Half line (0.5; 1.5; 2.5 etc.) can be settled as won or lost. The whole line (1; 2; 3 etc.) can be settled as won, lost or void. For further information please refer to the “How to Play” section.",
+                            "title": "Goals,Over,Under",
+                            "name": "Over/Under",
+                            "favourite": 1,
+                            "outcomes": [
+                                {
+                                    "id": "12",
+                                    "odds": "1.50",
+                                    "probability": "0.6195011915",
+                                    "isActive": 1,
+                                    "desc": "Over 1.5"
+                                },
+                                {
+                                    "id": "13",
+                                    "odds": "2.35",
+                                    "probability": "0.3804988085",
+                                    "isActive": 1,
+                                    "desc": "Under 1.5"
+                                }
+                            ],
+                            "farNearOdds": 1
+                        },
+                        {
+                            "id": "18",
+                            "specifier": "total=2.5",
+                            "product": 1,
+                            "desc": "Over/Under",
+                            "status": 0,
+                            "group": "Main",
+                            "groupId": "171121135724MGI11262166",
+                            "marketGuide": "Predict whether the total number of goals scored in regular time is over/under a given line. Half line (0.5; 1.5; 2.5 etc.) can be settled as won or lost. The whole line (1; 2; 3 etc.) can be settled as won, lost or void. For further information please refer to the “How to Play” section.",
+                            "title": "Goals,Over,Under",
+                            "name": "Over/Under",
+                            "favourite": 0,
+                            "outcomes": [
+                                {
+                                    "id": "12",
+                                    "odds": "2.55",
+                                    "probability": "0.3420801074",
+                                    "isActive": 1,
+                                    "desc": "Over 2.5"
+                                },
+                                {
+                                    "id": "13",
+                                    "odds": "1.42",
+                                    "probability": "0.6579198926",
+                                    "isActive": 1,
+                                    "desc": "Under 2.5"
+                                }
+                            ],
+                            "farNearOdds": 0
+                        },
+                        {
+                            "id": "18",
+                            "specifier": "total=3.5",
+                            "product": 1,
+                            "desc": "Over/Under",
+                            "status": 0,
+                            "group": "Main",
+                            "groupId": "171121135724MGI11262166",
+                            "marketGuide": "Predict whether the total number of goals scored in regular time is over/under a given line. Half line (0.5; 1.5; 2.5 etc.) can be settled as won or lost. The whole line (1; 2; 3 etc.) can be settled as won, lost or void. For further information please refer to the “How to Play” section.",
+                            "title": "Goals,Over,Under",
+                            "name": "Over/Under",
+                            "favourite": 0,
+                            "outcomes": [
+                                {
+                                    "id": "12",
+                                    "odds": "4.75",
+                                    "probability": "0.1614797758",
+                                    "isActive": 1,
+                                    "desc": "Over 3.5"
+                                },
+                                {
+                                    "id": "13",
+                                    "odds": "1.14",
+                                    "probability": "0.8385202242",
+                                    "isActive": 1,
+                                    "desc": "Under 3.5"
+                                }
+                            ],
+                            "farNearOdds": -1
+                        },
+                        {
+                            "id": "10",
+                            "product": 1,
+                            "desc": "Double Chance",
+                            "status": 0,
+                            "group": "Main",
+                            "groupId": "171121135724MGI11262166",
+                            "marketGuide": "Predict the match result combining two of the three possible outcomes (1X, X2 or 12).",
+                            "title": "1X,12,X2",
+                            "name": "Double Chance",
+                            "favourite": 0,
+                            "outcomes": [
+                                {
+                                    "id": "9",
+                                    "odds": "1.42",
+                                    "probability": "0.6415266157",
+                                    "isActive": 1,
+                                    "desc": "Home or Draw"
+                                },
+                                {
+                                    "id": "10",
+                                    "odds": "1.35",
+                                    "probability": "0.6681429869",
+                                    "isActive": 1,
+                                    "desc": "Home or Away"
+                                },
+                                {
+                                    "id": "11",
+                                    "odds": "1.32",
+                                    "probability": "0.6903303973",
+                                    "isActive": 1,
+                                    "desc": "Draw or Away"
+                                }
+                            ],
+                            "farNearOdds": 0
+                        },
+                        {
+                            "id": "8",
+                            "specifier": "goalnr=1",
+                            "product": 1,
+                            "desc": "1st Goal",
+                            "status": 0,
+                            "group": "Main",
+                            "groupId": "171121135724MGI11262166",
+                            "marketGuide": "Predict which team will score the Nth goal in the match. Overtime not included.",
+                            "title": "1,None,2",
+                            "name": "Next Goal",
+                            "favourite": 1,
+                            "outcomes": [
+                                {
+                                    "id": "6",
+                                    "odds": "2.20",
+                                    "probability": "0.4118699211",
+                                    "isActive": 1,
+                                    "desc": "Home"
+                                },
+                                {
+                                    "id": "7",
+                                    "odds": "6.25",
+                                    "probability": "0.1366248750",
+                                    "isActive": 1,
+                                    "desc": "None"
+                                },
+                                {
+                                    "id": "8",
+                                    "odds": "2.00",
+                                    "probability": "0.4515052039",
+                                    "isActive": 1,
+                                    "desc": "Away"
+                                }
+                            ],
+                            "farNearOdds": 1
+                        },
+                        {
+                            "id": "14",
+                            "specifier": "hcp=1:0",
+                            "product": 1,
+                            "desc": "Handicap 1:0",
+                            "status": 0,
+                            "group": "Main",
+                            "groupId": "171121135724MGI11262166",
+                            "marketGuide": "Predict the winner in regular time taking in consideration the handicap in brackets. ",
+                            "title": "",
+                            "name": "Handicap",
+                            "favourite": 1,
+                            "outcomes": [
+                                {
+                                    "id": "1711",
+                                    "odds": "1.47",
+                                    "probability": "0.6415266158",
+                                    "isActive": 1,
+                                    "desc": "Home (1:0)"
+                                },
+                                {
+                                    "id": "1712",
+                                    "odds": "4.05",
+                                    "probability": "0.2128553716",
+                                    "isActive": 1,
+                                    "desc": "Draw (1:0)"
+                                },
+                                {
+                                    "id": "1713",
+                                    "odds": "5.90",
+                                    "probability": "0.1456180126",
+                                    "isActive": 1,
+                                    "desc": "Away (1:0)"
+                                }
+                            ],
+                            "farNearOdds": 1
+                        },
+                        {
+                            "id": "19",
+                            "specifier": "total=0.5",
+                            "product": 1,
+                            "desc": "Home Team Over/Under",
+                            "status": 0,
+                            "group": "Goals",
+                            "groupId": "171121144758MGI11271357",
+                            "marketGuide": "Predict whether the total number of goals scored by the Home team in regular time is over/under a given line.",
+                            "title": "",
+                            "name": "Home O/U",
+                            "favourite": 1,
+                            "outcomes": [
+                                {
+                                    "id": "12",
+                                    "odds": "1.47",
+                                    "probability": "0.6301186313",
+                                    "isActive": 1,
+                                    "desc": "Over 0.5"
+                                },
+                                {
+                                    "id": "13",
+                                    "odds": "2.40",
+                                    "probability": "0.3698813687",
+                                    "isActive": 1,
+                                    "desc": "Under 0.5"
+                                }
+                            ],
+                            "farNearOdds": 1
+                        },
+                        {
+                            "id": "19",
+                            "specifier": "total=1.5",
+                            "product": 1,
+                            "desc": "Home Team Over/Under",
+                            "status": 0,
+                            "group": "Goals",
+                            "groupId": "171121144758MGI11271357",
+                            "marketGuide": "Predict whether the total number of goals scored by the Home team in regular time is over/under a given line.",
+                            "title": "",
+                            "name": "Home O/U",
+                            "favourite": 0,
+                            "outcomes": [
+                                {
+                                    "id": "12",
+                                    "odds": "3.25",
+                                    "probability": "0.2594062392",
+                                    "isActive": 1,
+                                    "desc": "Over 1.5"
+                                },
+                                {
+                                    "id": "13",
+                                    "odds": "1.27",
+                                    "probability": "0.7405937608",
+                                    "isActive": 1,
+                                    "desc": "Under 1.5"
+                                }
+                            ],
+                            "farNearOdds": 0
+                        },
+                        {
+                            "id": "19",
+                            "specifier": "total=2.5",
+                            "product": 1,
+                            "desc": "Home Team Over/Under",
+                            "status": 0,
+                            "group": "Goals",
+                            "groupId": "171121144758MGI11271357",
+                            "marketGuide": "Predict whether the total number of goals scored by the Home team in regular time is over/under a given line.",
+                            "title": "",
+                            "name": "Home O/U",
+                            "favourite": 0,
+                            "outcomes": [
+                                {
+                                    "id": "12",
+                                    "odds": "7.50",
+                                    "probability": "0.0779062154",
+                                    "isActive": 1,
+                                    "desc": "Over 2.5"
+                                },
+                                {
+                                    "id": "13",
+                                    "odds": "1.05",
+                                    "probability": "0.9220937846",
+                                    "isActive": 1,
+                                    "desc": "Under 2.5"
+                                }
+                            ],
+                            "farNearOdds": -1
+                        },
+                        {
+                            "id": "20",
+                            "specifier": "total=0.5",
+                            "product": 1,
+                            "desc": "Away Team Over/Under",
+                            "status": 0,
+                            "group": "Goals",
+                            "groupId": "171121144758MGI11271357",
+                            "marketGuide": "Predict whether the total number of goals scored by Away team in regular time is over/under a given line.",
+                            "title": "",
+                            "name": "Away O/U",
+                            "favourite": 1,
+                            "outcomes": [
+                                {
+                                    "id": "12",
+                                    "odds": "1.42",
+                                    "probability": "0.6633398274",
+                                    "isActive": 1,
+                                    "desc": "Over 0.5"
+                                },
+                                {
+                                    "id": "13",
+                                    "odds": "2.60",
+                                    "probability": "0.3366601726",
+                                    "isActive": 1,
+                                    "desc": "Under 0.5"
+                                }
+                            ],
+                            "farNearOdds": 1
+                        },
+                        {
+                            "id": "20",
+                            "specifier": "total=1.5",
+                            "product": 1,
+                            "desc": "Away Team Over/Under",
+                            "status": 0,
+                            "group": "Goals",
+                            "groupId": "171121144758MGI11271357",
+                            "marketGuide": "Predict whether the total number of goals scored by Away team in regular time is over/under a given line.",
+                            "title": "",
+                            "name": "Away O/U",
+                            "favourite": 0,
+                            "outcomes": [
+                                {
+                                    "id": "12",
+                                    "odds": "2.95",
+                                    "probability": "0.2943921918",
+                                    "isActive": 1,
+                                    "desc": "Over 1.5"
+                                },
+                                {
+                                    "id": "13",
+                                    "odds": "1.35",
+                                    "probability": "0.7056078082",
+                                    "isActive": 1,
+                                    "desc": "Under 1.5"
+                                }
+                            ],
+                            "farNearOdds": 0
+                        },
+                        {
+                            "id": "20",
+                            "specifier": "total=2.5",
+                            "product": 1,
+                            "desc": "Away Team Over/Under",
+                            "status": 0,
+                            "group": "Goals",
+                            "groupId": "171121144758MGI11271357",
+                            "marketGuide": "Predict whether the total number of goals scored by Away team in regular time is over/under a given line.",
+                            "title": "",
+                            "name": "Away O/U",
+                            "favourite": 0,
+                            "outcomes": [
+                                {
+                                    "id": "12",
+                                    "odds": "6.75",
+                                    "probability": "0.0963422908",
+                                    "isActive": 1,
+                                    "desc": "Over 2.5"
+                                },
+                                {
+                                    "id": "13",
+                                    "odds": "1.06",
+                                    "probability": "0.9036577092",
+                                    "isActive": 1,
+                                    "desc": "Under 2.5"
+                                }
+                            ],
+                            "farNearOdds": -1
+                        },
+                        {
+                            "id": "29",
+                            "product": 1,
+                            "desc": "GG/NG",
+                            "status": 0,
+                            "group": "Main",
+                            "groupId": "171121135724MGI11262166",
+                            "marketGuide": "Predict whether both teams will score in the match at regular time. *Yes (GG both teams score) *No (NG any team not to score ).",
+                            "title": "GG,NG",
+                            "name": "GG/NG",
+                            "favourite": 0,
+                            "outcomes": [
+                                {
+                                    "id": "74",
+                                    "odds": "2.10",
+                                    "probability": "0.4300833337",
+                                    "isActive": 1,
+                                    "desc": "Yes"
+                                },
+                                {
+                                    "id": "76",
+                                    "odds": "1.65",
+                                    "probability": "0.5699166663",
+                                    "isActive": 1,
+                                    "desc": "No"
+                                }
+                            ],
+                            "farNearOdds": 0
+                        }
+                    ],
+                    "bookingStatus": "Booked",
+                    "topTeam": false,
+                    "commentsNum": 7,
+                    "topicId": 91833616,
+                    "giftGrabActivityResultVO": {
+                        "activityEnabled": false,
+                        "enabled": false
+                    },
+                    "bgEvent": false,
+                    "ai": false,
+                    "matchTrackerNotAllowed": false
+                }
+            ],
+            "categoryName": "Nigeria",
+            "categoryId": "sr:category:532"
+        }
+    ]
+}
