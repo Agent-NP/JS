@@ -1,0 +1,1925 @@
+{
+    "events": [
+        {
+            "tournament": {
+                "name": "Tournoi Maurice Revello, Group B",
+                "slug": "tournoi-maurice-revello-group-b",
+                "category": {
+                    "name": "World",
+                    "slug": "world",
+                    "sport": {
+                        "name": "Football",
+                        "slug": "football",
+                        "id": 1
+                    },
+                    "id": 1468,
+                    "country": {},
+                    "flag": "international"
+                },
+                "uniqueTournament": {
+                    "name": "U23 Toulon Tournament",
+                    "slug": "u23-toulon-tournament",
+                    "primaryColorHex": "#2795d3",
+                    "secondaryColorHex": "#174999",
+                    "category": {
+                        "name": "World",
+                        "slug": "world",
+                        "sport": {
+                            "name": "Football",
+                            "slug": "football",
+                            "id": 1
+                        },
+                        "id": 1468,
+                        "country": {},
+                        "flag": "international"
+                    },
+                    "userCount": 4808,
+                    "id": 2084,
+                    "country": {},
+                    "crowdsourcingEnabled": false,
+                    "hasPerformanceGraphFeature": false,
+                    "hasEventPlayerStatistics": false,
+                    "displayInverseHomeAwayTeams": false
+                },
+                "priority": 0,
+                "isGroup": true,
+                "groupName": "Group B",
+                "isLive": false,
+                "id": 73137
+            },
+            "season": {
+                "name": "Toulon Tournament 2024",
+                "year": "2024",
+                "editor": false,
+                "seasonCoverageInfo": {
+                    "editorCoverageLevel": 1
+                },
+                "id": 60175
+            },
+            "roundInfo": {
+                "round": 5
+            },
+            "customId": "yajsnHGb",
+            "status": {
+                "code": 6,
+                "description": "1st half",
+                "type": "inprogress"
+            },
+            "homeTeam": {
+                "name": "Japan U19",
+                "slug": "japan-u19",
+                "shortName": "Japan U19",
+                "gender": "M",
+                "sport": {
+                    "name": "Football",
+                    "slug": "football",
+                    "id": 1
+                },
+                "userCount": 2373,
+                "nameCode": "JAP",
+                "national": true,
+                "type": 0,
+                "id": 22523,
+                "country": {
+                    "alpha2": "JP",
+                    "alpha3": "JPN",
+                    "name": "Japan"
+                },
+                "subTeams": [],
+                "teamColors": {
+                    "primary": "#000080",
+                    "secondary": "#ed1b24",
+                    "text": "#ed1b24"
+                },
+                "fieldTranslations": {
+                    "nameTranslation": {
+                        "ru": "\u042f\u043f\u043e\u043d\u0438\u044f"
+                    },
+                    "shortNameTranslation": {}
+                }
+            },
+            "awayTeam": {
+                "name": "Panama U23",
+                "slug": "panama-u23",
+                "shortName": "Panama",
+                "gender": "M",
+                "sport": {
+                    "name": "Football",
+                    "slug": "football",
+                    "id": 1
+                },
+                "userCount": 1424,
+                "nameCode": "PAN",
+                "disabled": false,
+                "national": true,
+                "type": 0,
+                "id": 204113,
+                "country": {
+                    "alpha2": "PA",
+                    "alpha3": "PAN",
+                    "name": "Panama"
+                },
+                "subTeams": [],
+                "teamColors": {
+                    "primary": "#cc0000",
+                    "secondary": "#005293",
+                    "text": "#005293"
+                },
+                "fieldTranslations": {
+                    "nameTranslation": {
+                        "ru": "\u041f\u0430\u043d\u0430\u043c\u0430"
+                    },
+                    "shortNameTranslation": {}
+                }
+            },
+            "homeScore": {
+                "current": 0,
+                "display": 0
+            },
+            "awayScore": {
+                "current": 0,
+                "display": 0
+            },
+            "time": {
+                "initial": 0,
+                "max": 2700,
+                "extra": 540,
+                "currentPeriodStartTimestamp": 1718195488
+            },
+            "changes": {
+                "changes": [
+                    "status.code",
+                    "status.description",
+                    "status.type",
+                    "homeScore.current",
+                    "homeScore.display",
+                    "awayScore.current",
+                    "awayScore.display",
+                    "time.currentPeriodStart"
+                ],
+                "changeTimestamp": 1718195491
+            },
+            "hasGlobalHighlights": false,
+            "crowdsourcingDataDisplayEnabled": false,
+            "id": 12297390,
+            "statusTime": {
+                "prefix": "",
+                "initial": 0,
+                "max": 2700,
+                "timestamp": 1718195488,
+                "extra": 540
+            },
+            "crowdsourcingEnabled": false,
+            "startTimestamp": 1718195400,
+            "slug": "panama-u23-japan-u19",
+            "lastPeriod": "period1",
+            "finalResultOnly": false,
+            "feedLocked": false,
+            "isEditor": false
+        },
+        {
+            "tournament": {
+                "name": "FFA Cup, Preliminary Round, Western Australia",
+                "slug": "ffa-cup-preliminary-round-western-australia",
+                "category": {
+                    "name": "Australia",
+                    "slug": "australia",
+                    "sport": {
+                        "name": "Football",
+                        "slug": "football",
+                        "id": 1
+                    },
+                    "id": 34,
+                    "country": {
+                        "alpha2": "AU",
+                        "alpha3": "AUS",
+                        "name": "Australia"
+                    },
+                    "flag": "australia",
+                    "alpha2": "AU"
+                },
+                "uniqueTournament": {
+                    "name": "Australia Cup",
+                    "slug": "australia-cup",
+                    "primaryColorHex": "#16263c",
+                    "secondaryColorHex": "#6895cf",
+                    "category": {
+                        "name": "Australia",
+                        "slug": "australia",
+                        "sport": {
+                            "name": "Football",
+                            "slug": "football",
+                            "id": 1
+                        },
+                        "id": 34,
+                        "country": {
+                            "alpha2": "AU",
+                            "alpha3": "AUS",
+                            "name": "Australia"
+                        },
+                        "flag": "australia",
+                        "alpha2": "AU"
+                    },
+                    "userCount": 3535,
+                    "id": 1786,
+                    "country": {},
+                    "crowdsourcingEnabled": false,
+                    "hasPerformanceGraphFeature": false,
+                    "hasEventPlayerStatistics": true,
+                    "displayInverseHomeAwayTeams": false
+                },
+                "priority": 0,
+                "isGroup": false,
+                "isLive": false,
+                "id": 43088
+            },
+            "customId": "FPLsCXDc",
+            "status": {
+                "code": 7,
+                "description": "2nd half",
+                "type": "inprogress"
+            },
+            "homeTeam": {
+                "name": "Olympic Kingsway",
+                "slug": "olympic-kingsway",
+                "shortName": "Olympic Kingsway",
+                "gender": "M",
+                "sport": {
+                    "name": "Football",
+                    "slug": "football",
+                    "id": 1
+                },
+                "userCount": 1425,
+                "nameCode": "OKI",
+                "disabled": false,
+                "national": false,
+                "type": 0,
+                "id": 322377,
+                "country": {
+                    "alpha2": "AU",
+                    "alpha3": "AUS",
+                    "name": "Australia"
+                },
+                "subTeams": [],
+                "teamColors": {
+                    "primary": "#52b030",
+                    "secondary": "#52b030",
+                    "text": "#ffffff"
+                }
+            },
+            "awayTeam": {
+                "name": "Perth SC",
+                "slug": "perth-sc",
+                "shortName": "Perth SC",
+                "gender": "M",
+                "sport": {
+                    "name": "Football",
+                    "slug": "football",
+                    "id": 1
+                },
+                "userCount": 2270,
+                "nameCode": "PER",
+                "disabled": false,
+                "national": false,
+                "type": 0,
+                "id": 92030,
+                "country": {
+                    "alpha2": "AU",
+                    "alpha3": "AUS",
+                    "name": "Australia"
+                },
+                "subTeams": [],
+                "teamColors": {
+                    "primary": "#bbf3ff",
+                    "secondary": "#000000",
+                    "text": "#000000"
+                },
+                "fieldTranslations": {
+                    "nameTranslation": {
+                        "ar": "\u0646\u0627\u062f\u064a \u0628\u0631\u062b",
+                        "ru": "\u041f\u0435\u0440\u0442 \u0421\u041a"
+                    },
+                    "shortNameTranslation": {}
+                }
+            },
+            "homeScore": {
+                "current": 2,
+                "display": 2,
+                "period1": 2,
+                "period2": 0,
+                "normaltime": 2
+            },
+            "awayScore": {
+                "current": 1,
+                "display": 1,
+                "period1": 1,
+                "period2": 0,
+                "normaltime": 1
+            },
+            "coverage": -1,
+            "time": {
+                "initial": 2700,
+                "max": 5400,
+                "extra": 540,
+                "currentPeriodStartTimestamp": 1718193900
+            },
+            "changes": {
+                "changes": [
+                    "status.code",
+                    "status.description",
+                    "homeScore.period2",
+                    "awayScore.period2",
+                    "time.currentPeriodStart",
+                    "time.period2Start"
+                ],
+                "changeTimestamp": 1718193927
+            },
+            "hasGlobalHighlights": false,
+            "crowdsourcingDataDisplayEnabled": false,
+            "id": 12414276,
+            "statusTime": {
+                "prefix": "",
+                "initial": 2700,
+                "max": 5400,
+                "timestamp": 1718193900,
+                "extra": 540
+            },
+            "crowdsourcingEnabled": false,
+            "startTimestamp": 1718190000,
+            "slug": "olympic-kingsway-perth-sc",
+            "lastPeriod": "period2",
+            "finalResultOnly": false,
+            "feedLocked": true
+        },
+        {
+            "tournament": {
+                "name": "FFA Cup, Preliminary Round, Western Australia",
+                "slug": "ffa-cup-preliminary-round-western-australia",
+                "category": {
+                    "name": "Australia",
+                    "slug": "australia",
+                    "sport": {
+                        "name": "Football",
+                        "slug": "football",
+                        "id": 1
+                    },
+                    "id": 34,
+                    "country": {
+                        "alpha2": "AU",
+                        "alpha3": "AUS",
+                        "name": "Australia"
+                    },
+                    "flag": "australia",
+                    "alpha2": "AU"
+                },
+                "uniqueTournament": {
+                    "name": "Australia Cup",
+                    "slug": "australia-cup",
+                    "primaryColorHex": "#16263c",
+                    "secondaryColorHex": "#6895cf",
+                    "category": {
+                        "name": "Australia",
+                        "slug": "australia",
+                        "sport": {
+                            "name": "Football",
+                            "slug": "football",
+                            "id": 1
+                        },
+                        "id": 34,
+                        "country": {
+                            "alpha2": "AU",
+                            "alpha3": "AUS",
+                            "name": "Australia"
+                        },
+                        "flag": "australia",
+                        "alpha2": "AU"
+                    },
+                    "userCount": 3535,
+                    "id": 1786,
+                    "country": {},
+                    "crowdsourcingEnabled": false,
+                    "hasPerformanceGraphFeature": false,
+                    "hasEventPlayerStatistics": true,
+                    "displayInverseHomeAwayTeams": false
+                },
+                "priority": 0,
+                "isGroup": false,
+                "isLive": false,
+                "id": 43088
+            },
+            "customId": "zPLsHPL",
+            "status": {
+                "code": 7,
+                "description": "2nd half",
+                "type": "inprogress"
+            },
+            "homeTeam": {
+                "name": "Sorrento",
+                "slug": "sorrento",
+                "shortName": "Sorrento",
+                "gender": "M",
+                "sport": {
+                    "name": "Football",
+                    "slug": "football",
+                    "id": 1
+                },
+                "userCount": 1587,
+                "nameCode": "SOR",
+                "national": false,
+                "type": 0,
+                "id": 92032,
+                "country": {
+                    "alpha2": "AU",
+                    "alpha3": "AUS",
+                    "name": "Australia"
+                },
+                "subTeams": [],
+                "teamColors": {
+                    "primary": "#87ceeb",
+                    "secondary": "#090821",
+                    "text": "#090821"
+                },
+                "fieldTranslations": {
+                    "nameTranslation": {
+                        "ar": "\u0633\u0648\u0631\u064a\u0646\u062a\u0648",
+                        "ru": "\u0421\u043e\u0440\u0440\u0435\u043d\u0442\u043e"
+                    },
+                    "shortNameTranslation": {}
+                }
+            },
+            "awayTeam": {
+                "name": "Perth Redstar",
+                "slug": "perth-redstar",
+                "shortName": "Perth Redstar",
+                "gender": "M",
+                "sport": {
+                    "name": "Football",
+                    "slug": "football",
+                    "id": 1
+                },
+                "userCount": 2155,
+                "nameCode": "RED",
+                "disabled": false,
+                "national": false,
+                "type": 0,
+                "id": 92024,
+                "country": {
+                    "alpha2": "AU",
+                    "alpha3": "AUS",
+                    "name": "Australia"
+                },
+                "subTeams": [],
+                "teamColors": {
+                    "primary": "#ff0000",
+                    "secondary": "#ffffff",
+                    "text": "#ffffff"
+                },
+                "fieldTranslations": {
+                    "nameTranslation": {
+                        "ru": "\u042d\u041a\u0423 \u0414\u0436\u043e\u043d\u0434\u0430\u043b\u0443\u043f"
+                    },
+                    "shortNameTranslation": {}
+                }
+            },
+            "homeScore": {
+                "current": 1,
+                "display": 1,
+                "period1": 0,
+                "period2": 0,
+                "normaltime": 0
+            },
+            "awayScore": {
+                "current": 1,
+                "display": 1,
+                "period1": 1,
+                "period2": 0,
+                "normaltime": 1
+            },
+            "coverage": -1,
+            "time": {
+                "initial": 2700,
+                "max": 5400,
+                "extra": 540,
+                "currentPeriodStartTimestamp": 1718193900
+            },
+            "changes": {
+                "changes": [
+                    "homeScore.current",
+                    "homeScore.display"
+                ],
+                "changeTimestamp": 1718195185
+            },
+            "hasGlobalHighlights": false,
+            "crowdsourcingDataDisplayEnabled": false,
+            "id": 12414278,
+            "statusTime": {
+                "prefix": "",
+                "initial": 2700,
+                "max": 5400,
+                "timestamp": 1718193900,
+                "extra": 540
+            },
+            "crowdsourcingEnabled": false,
+            "startTimestamp": 1718190000,
+            "slug": "sorrento-perth-redstar",
+            "lastPeriod": "period2",
+            "finalResultOnly": false,
+            "feedLocked": true
+        },
+        {
+            "tournament": {
+                "name": "Bhutan Premier League",
+                "slug": "bhutan-premier-league",
+                "category": {
+                    "name": "Bhutan",
+                    "slug": "bhutan",
+                    "sport": {
+                        "name": "Football",
+                        "slug": "football",
+                        "id": 1
+                    },
+                    "id": 1556,
+                    "country": {
+                        "alpha2": "BT",
+                        "alpha3": "BTN",
+                        "name": "Bhutan"
+                    },
+                    "flag": "bhutan",
+                    "alpha2": "BT"
+                },
+                "uniqueTournament": {
+                    "name": "Bhutan Premier League",
+                    "slug": "bhutan-premier-league",
+                    "category": {
+                        "name": "Bhutan",
+                        "slug": "bhutan",
+                        "sport": {
+                            "name": "Football",
+                            "slug": "football",
+                            "id": 1
+                        },
+                        "id": 1556,
+                        "country": {
+                            "alpha2": "BT",
+                            "alpha3": "BTN",
+                            "name": "Bhutan"
+                        },
+                        "flag": "bhutan",
+                        "alpha2": "BT"
+                    },
+                    "userCount": 175,
+                    "id": 22397,
+                    "country": {},
+                    "crowdsourcingEnabled": false,
+                    "hasPerformanceGraphFeature": false,
+                    "hasEventPlayerStatistics": false,
+                    "displayInverseHomeAwayTeams": false
+                },
+                "priority": 0,
+                "isGroup": false,
+                "id": 129826
+            },
+            "season": {
+                "name": "BPL 2024",
+                "year": "2024",
+                "editor": false,
+                "id": 60181
+            },
+            "customId": "Ulkcslird",
+            "status": {
+                "code": 31,
+                "description": "Halftime",
+                "type": "inprogress"
+            },
+            "homeTeam": {
+                "name": "BFF Academy U19",
+                "slug": "bff-academy-u19",
+                "shortName": "BFF Academy U19",
+                "sport": {
+                    "name": "Football",
+                    "slug": "football",
+                    "id": 1
+                },
+                "userCount": 860,
+                "nameCode": "BAU",
+                "national": false,
+                "type": 0,
+                "id": 417911,
+                "country": {},
+                "subTeams": [],
+                "teamColors": {
+                    "primary": "#52b030",
+                    "secondary": "#52b030",
+                    "text": "#ffffff"
+                }
+            },
+            "awayTeam": {
+                "name": "Transport United",
+                "slug": "transport-united",
+                "shortName": "Transport United",
+                "gender": "M",
+                "sport": {
+                    "name": "Football",
+                    "slug": "football",
+                    "id": 1
+                },
+                "userCount": 1255,
+                "nameCode": "TUF",
+                "national": false,
+                "type": 0,
+                "id": 275594,
+                "country": {
+                    "alpha2": "BT",
+                    "alpha3": "BTN",
+                    "name": "Bhutan"
+                },
+                "subTeams": [],
+                "teamColors": {
+                    "primary": "#ff0000",
+                    "secondary": "#48097f",
+                    "text": "#48097f"
+                },
+                "fieldTranslations": {
+                    "nameTranslation": {
+                        "ru": "\u0422\u0440\u0430\u043d\u0441\u043f\u043e\u0440\u0442 \u042e\u043d\u0430\u0439\u0442\u0435\u0434 \u0424\u041a"
+                    },
+                    "shortNameTranslation": {}
+                }
+            },
+            "homeScore": {
+                "current": 0,
+                "display": 0,
+                "period1": 0,
+                "normaltime": 0
+            },
+            "awayScore": {
+                "current": 3,
+                "display": 3,
+                "period1": 3,
+                "normaltime": 3
+            },
+            "coverage": -1,
+            "time": {
+                "currentPeriodStartTimestamp": 1718193660
+            },
+            "changes": {
+                "changes": [
+                    "status.code",
+                    "status.description",
+                    "awayScore.period1",
+                    "awayScore.normaltime"
+                ],
+                "changeTimestamp": 1718196474
+            },
+            "hasGlobalHighlights": false,
+            "crowdsourcingDataDisplayEnabled": false,
+            "id": 12315433,
+            "crowdsourcingEnabled": false,
+            "startTimestamp": 1718193600,
+            "slug": "bff-academy-u19-transport-united",
+            "finalResultOnly": false,
+            "feedLocked": true,
+            "isEditor": false
+        },
+        {
+            "tournament": {
+                "name": "Reserveligaen, Pulje 1",
+                "slug": "reserveligaen-pulje-1",
+                "category": {
+                    "name": "Denmark Amateur",
+                    "slug": "denmark-amateur",
+                    "sport": {
+                        "name": "Football",
+                        "slug": "football",
+                        "id": 1
+                    },
+                    "id": 95,
+                    "country": {
+                        "alpha2": "DK",
+                        "alpha3": "DNK",
+                        "name": "Denmark"
+                    },
+                    "flag": "denmark",
+                    "alpha2": "DK"
+                },
+                "priority": 0,
+                "isLive": false,
+                "id": 41702
+            },
+            "customId": "oCIbspYZb",
+            "status": {
+                "code": 7,
+                "description": "2nd half",
+                "type": "inprogress"
+            },
+            "homeTeam": {
+                "name": "OB Reserve",
+                "slug": "ob-reserve",
+                "shortName": "OB",
+                "gender": "M",
+                "sport": {
+                    "name": "Football",
+                    "slug": "football",
+                    "id": 1
+                },
+                "userCount": 164,
+                "nameCode": "OBK",
+                "national": false,
+                "type": 0,
+                "id": 208864,
+                "country": {
+                    "alpha2": "DK",
+                    "alpha3": "DNK",
+                    "name": "Denmark"
+                },
+                "subTeams": [],
+                "teamColors": {
+                    "primary": "#52b030",
+                    "secondary": "#52b030",
+                    "text": "#ffffff"
+                }
+            },
+            "awayTeam": {
+                "name": "FC K\u00f8benhavn Reserve",
+                "slug": "fc-kobenhavn-reserve",
+                "shortName": "FC K\u00f8benhavn",
+                "gender": "M",
+                "sport": {
+                    "name": "Football",
+                    "slug": "football",
+                    "id": 1
+                },
+                "userCount": 266,
+                "nameCode": "FCK",
+                "disabled": false,
+                "national": false,
+                "type": 0,
+                "id": 249915,
+                "country": {
+                    "alpha2": "DK",
+                    "alpha3": "DNK",
+                    "name": "Denmark"
+                },
+                "subTeams": [],
+                "teamColors": {
+                    "primary": "#52b030",
+                    "secondary": "#52b030",
+                    "text": "#ffffff"
+                }
+            },
+            "homeScore": {
+                "current": 2,
+                "display": 2,
+                "period1": 1,
+                "period2": 0,
+                "normaltime": 1
+            },
+            "awayScore": {
+                "current": 5,
+                "display": 5,
+                "period1": 1,
+                "period2": 0,
+                "normaltime": 1
+            },
+            "coverage": -1,
+            "time": {
+                "initial": 2700,
+                "max": 5400,
+                "extra": 540,
+                "currentPeriodStartTimestamp": 1718193900
+            },
+            "changes": {
+                "changes": [
+                    "awayScore.current",
+                    "awayScore.display"
+                ],
+                "changeTimestamp": 1718195930
+            },
+            "hasGlobalHighlights": false,
+            "crowdsourcingDataDisplayEnabled": false,
+            "id": 12414268,
+            "statusTime": {
+                "prefix": "",
+                "initial": 2700,
+                "max": 5400,
+                "timestamp": 1718193900,
+                "extra": 540
+            },
+            "crowdsourcingEnabled": false,
+            "startTimestamp": 1718190000,
+            "slug": "fc-kobenhavn-reserve-ob-reserve",
+            "lastPeriod": "period2",
+            "finalResultOnly": false,
+            "feedLocked": true
+        },
+        {
+            "tournament": {
+                "name": "Division 2",
+                "slug": "division-2",
+                "category": {
+                    "name": "Hong Kong",
+                    "slug": "hong-kong",
+                    "sport": {
+                        "name": "Football",
+                        "slug": "football",
+                        "id": 1
+                    },
+                    "id": 339,
+                    "country": {
+                        "alpha2": "HK",
+                        "alpha3": "HKG",
+                        "name": "Hong Kong"
+                    },
+                    "flag": "hong-kong",
+                    "alpha2": "HK"
+                },
+                "priority": 0,
+                "isLive": false,
+                "id": 41475
+            },
+            "customId": "kPHbsYNxc",
+            "status": {
+                "code": 6,
+                "description": "1st half",
+                "type": "inprogress"
+            },
+            "homeTeam": {
+                "name": "Kwai Tsing",
+                "slug": "kwai-tsing",
+                "shortName": "Kwai Tsing",
+                "gender": "M",
+                "sport": {
+                    "name": "Football",
+                    "slug": "football",
+                    "id": 1
+                },
+                "userCount": 665,
+                "nameCode": "KWT",
+                "national": false,
+                "type": 0,
+                "id": 207010,
+                "country": {
+                    "alpha2": "HK",
+                    "alpha3": "HKG",
+                    "name": "Hong Kong"
+                },
+                "subTeams": [],
+                "teamColors": {
+                    "primary": "#52b030",
+                    "secondary": "#52b030",
+                    "text": "#ffffff"
+                }
+            },
+            "awayTeam": {
+                "name": "Chelsea SS (HK)",
+                "slug": "chelsea-ss-hk",
+                "shortName": "Chelsea SS (HK)",
+                "gender": "M",
+                "sport": {
+                    "name": "Football",
+                    "slug": "football",
+                    "id": 1
+                },
+                "userCount": 528,
+                "nameCode": "CHE",
+                "disabled": false,
+                "national": false,
+                "type": 0,
+                "id": 306948,
+                "country": {},
+                "subTeams": [],
+                "teamColors": {
+                    "primary": "#52b030",
+                    "secondary": "#52b030",
+                    "text": "#ffffff"
+                }
+            },
+            "homeScore": {
+                "current": 1,
+                "display": 1,
+                "period1": 0,
+                "normaltime": 0
+            },
+            "awayScore": {
+                "current": 0,
+                "display": 0,
+                "period1": 0,
+                "normaltime": 0
+            },
+            "coverage": -1,
+            "time": {
+                "initial": 0,
+                "max": 2700,
+                "extra": 540,
+                "currentPeriodStartTimestamp": 1718195340
+            },
+            "changes": {
+                "changes": [
+                    "homeScore.current",
+                    "homeScore.display"
+                ],
+                "changeTimestamp": 1718195482
+            },
+            "hasGlobalHighlights": false,
+            "crowdsourcingDataDisplayEnabled": false,
+            "id": 12414604,
+            "statusTime": {
+                "prefix": "",
+                "initial": 0,
+                "max": 2700,
+                "timestamp": 1718195340,
+                "extra": 540
+            },
+            "crowdsourcingEnabled": false,
+            "startTimestamp": 1718195400,
+            "slug": "chelsea-ss-hk-kwai-tsing",
+            "lastPeriod": "period1",
+            "finalResultOnly": false,
+            "feedLocked": true
+        },
+        {
+            "tournament": {
+                "name": "Emperor Cup",
+                "slug": "emperor-cup",
+                "category": {
+                    "name": "Japan",
+                    "slug": "japan",
+                    "sport": {
+                        "name": "Football",
+                        "slug": "football",
+                        "id": 1
+                    },
+                    "id": 52,
+                    "country": {
+                        "alpha2": "JP",
+                        "alpha3": "JPN",
+                        "name": "Japan"
+                    },
+                    "flag": "japan",
+                    "alpha2": "JP"
+                },
+                "uniqueTournament": {
+                    "name": "Emperor Cup",
+                    "slug": "emperor-cup",
+                    "primaryColorHex": "#0db04b",
+                    "secondaryColorHex": "#097732",
+                    "category": {
+                        "name": "Japan",
+                        "slug": "japan",
+                        "sport": {
+                            "name": "Football",
+                            "slug": "football",
+                            "id": 1
+                        },
+                        "id": 52,
+                        "country": {
+                            "alpha2": "JP",
+                            "alpha3": "JPN",
+                            "name": "Japan"
+                        },
+                        "flag": "japan",
+                        "alpha2": "JP"
+                    },
+                    "userCount": 3923,
+                    "id": 323,
+                    "country": {},
+                    "crowdsourcingEnabled": false,
+                    "hasPerformanceGraphFeature": false,
+                    "hasEventPlayerStatistics": false,
+                    "displayInverseHomeAwayTeams": false
+                },
+                "priority": 0,
+                "isGroup": false,
+                "isLive": false,
+                "id": 5126
+            },
+            "season": {
+                "name": "Emperor Cup 2024",
+                "year": "2024",
+                "editor": false,
+                "id": 60629
+            },
+            "roundInfo": {
+                "round": 2,
+                "name": "Round 2",
+                "slug": "round-2"
+            },
+            "customId": "MmbsaNi",
+            "status": {
+                "code": 50,
+                "description": "Penalties",
+                "type": "inprogress"
+            },
+            "homeTeam": {
+                "name": "Yokohama F. Marinos",
+                "slug": "yokohama-f-marinos",
+                "shortName": "Yokohama FM",
+                "gender": "M",
+                "sport": {
+                    "name": "Football",
+                    "slug": "football",
+                    "id": 1
+                },
+                "userCount": 30914,
+                "nameCode": "MAR",
+                "disabled": false,
+                "national": false,
+                "type": 0,
+                "id": 3137,
+                "country": {
+                    "alpha2": "JP",
+                    "alpha3": "JPN",
+                    "name": "Japan"
+                },
+                "subTeams": [],
+                "teamColors": {
+                    "primary": "#0000bb",
+                    "secondary": "#0000bb",
+                    "text": "#0000bb"
+                },
+                "fieldTranslations": {
+                    "nameTranslation": {
+                        "ru": "\u0419\u043e\u043a\u043e\u0445\u0430\u043c\u0430 \u0424 \u041c\u0430\u0440\u0438\u043d\u043e\u0441"
+                    },
+                    "shortNameTranslation": {}
+                }
+            },
+            "awayTeam": {
+                "name": "FC Gifu",
+                "slug": "fc-gifu",
+                "shortName": "Gifu",
+                "gender": "M",
+                "sport": {
+                    "name": "Football",
+                    "slug": "football",
+                    "id": 1
+                },
+                "userCount": 1650,
+                "nameCode": "GIF",
+                "national": false,
+                "type": 0,
+                "id": 21900,
+                "country": {
+                    "alpha2": "JP",
+                    "alpha3": "JPN",
+                    "name": "Japan"
+                },
+                "subTeams": [],
+                "teamColors": {
+                    "primary": "#247d37",
+                    "secondary": "#044a0f",
+                    "text": "#044a0f"
+                },
+                "fieldTranslations": {
+                    "nameTranslation": {
+                        "ar": "\u0625\u0641 \u0633\u064a \u062c\u064a\u0641\u0648",
+                        "ru": "\u0424\u041a \u0413\u0438\u0444\u0443"
+                    },
+                    "shortNameTranslation": {}
+                }
+            },
+            "homeScore": {
+                "current": 6,
+                "display": 2,
+                "period1": 0,
+                "period2": 2,
+                "normaltime": 2,
+                "extra1": 0,
+                "extra2": 0,
+                "overtime": 0,
+                "penalties": 4
+            },
+            "awayScore": {
+                "current": 6,
+                "display": 2,
+                "period1": 0,
+                "period2": 2,
+                "normaltime": 2,
+                "extra1": 0,
+                "extra2": 0,
+                "overtime": 0,
+                "penalties": 4
+            },
+            "time": {
+                "currentPeriodStartTimestamp": 1718196213
+            },
+            "changes": {
+                "changes": [
+                    "homeScore.current",
+                    "homeScore.penalties"
+                ],
+                "changeTimestamp": 1718196636
+            },
+            "hasGlobalHighlights": false,
+            "crowdsourcingDataDisplayEnabled": false,
+            "id": 12378055,
+            "crowdsourcingEnabled": false,
+            "startTimestamp": 1718186400,
+            "slug": "fc-gifu-yokohama-marinos",
+            "lastPeriod": "penalties",
+            "finalResultOnly": false,
+            "feedLocked": true,
+            "isEditor": false
+        },
+        {
+            "tournament": {
+                "name": "Malaysia FA Cup",
+                "slug": "malaysia-fa-cup",
+                "category": {
+                    "name": "Malaysia",
+                    "slug": "malaysia",
+                    "sport": {
+                        "name": "Football",
+                        "slug": "football",
+                        "id": 1
+                    },
+                    "id": 85,
+                    "country": {
+                        "alpha2": "MY",
+                        "alpha3": "MYS",
+                        "name": "Malaysia"
+                    },
+                    "flag": "malaysia",
+                    "alpha2": "MY"
+                },
+                "uniqueTournament": {
+                    "name": "Malaysia FA Cup",
+                    "slug": "malaysia-fa-cup",
+                    "primaryColorHex": "#353c42",
+                    "secondaryColorHex": "#4c8aba",
+                    "category": {
+                        "name": "Malaysia",
+                        "slug": "malaysia",
+                        "sport": {
+                            "name": "Football",
+                            "slug": "football",
+                            "id": 1
+                        },
+                        "id": 85,
+                        "country": {
+                            "alpha2": "MY",
+                            "alpha3": "MYS",
+                            "name": "Malaysia"
+                        },
+                        "flag": "malaysia",
+                        "alpha2": "MY"
+                    },
+                    "userCount": 2052,
+                    "id": 13474,
+                    "country": {},
+                    "crowdsourcingEnabled": false,
+                    "hasPerformanceGraphFeature": false,
+                    "hasEventPlayerStatistics": false,
+                    "displayInverseHomeAwayTeams": false
+                },
+                "priority": 0,
+                "isGroup": false,
+                "isLive": false,
+                "id": 6191
+            },
+            "season": {
+                "name": "FA Cup 2024",
+                "year": "2024",
+                "editor": false,
+                "id": 60749
+            },
+            "roundInfo": {
+                "round": 5,
+                "name": "Round of 16",
+                "slug": "round-of-16",
+                "cupRoundType": 8
+            },
+            "customId": "zCfbsfKRd",
+            "status": {
+                "code": 6,
+                "description": "1st half",
+                "type": "inprogress"
+            },
+            "homeTeam": {
+                "name": "PDRM FC",
+                "slug": "pdrm-fc",
+                "shortName": "PDRM",
+                "gender": "M",
+                "sport": {
+                    "name": "Football",
+                    "slug": "football",
+                    "id": 1
+                },
+                "userCount": 1441,
+                "nameCode": "PDR",
+                "disabled": false,
+                "national": false,
+                "type": 0,
+                "id": 138874,
+                "country": {
+                    "alpha2": "MY",
+                    "alpha3": "MYS",
+                    "name": "Malaysia"
+                },
+                "subTeams": [],
+                "teamColors": {
+                    "primary": "#ff0000",
+                    "secondary": "#ffffff",
+                    "text": "#ffffff"
+                }
+            },
+            "awayTeam": {
+                "name": "Malaysia University",
+                "slug": "malaysia-university",
+                "shortName": "Malaysia University",
+                "gender": "M",
+                "sport": {
+                    "name": "Football",
+                    "slug": "football",
+                    "id": 1
+                },
+                "userCount": 83,
+                "nameCode": "MUN",
+                "disabled": false,
+                "national": false,
+                "type": 0,
+                "id": 481755,
+                "country": {
+                    "alpha2": "MY",
+                    "alpha3": "MYS",
+                    "name": "Malaysia"
+                },
+                "subTeams": [],
+                "teamColors": {
+                    "primary": "#52b030",
+                    "secondary": "#52b030",
+                    "text": "#ffffff"
+                }
+            },
+            "homeScore": {
+                "current": 0,
+                "display": 0,
+                "period1": 0,
+                "normaltime": 0
+            },
+            "awayScore": {
+                "current": 2,
+                "display": 2,
+                "period1": 0,
+                "normaltime": 0
+            },
+            "time": {
+                "initial": 0,
+                "max": 2700,
+                "extra": 540,
+                "currentPeriodStartTimestamp": 1718194560
+            },
+            "changes": {
+                "changes": [
+                    "awayScore.current",
+                    "awayScore.display"
+                ],
+                "changeTimestamp": 1718195105
+            },
+            "hasGlobalHighlights": false,
+            "crowdsourcingDataDisplayEnabled": false,
+            "id": 12341339,
+            "statusTime": {
+                "prefix": "",
+                "initial": 0,
+                "max": 2700,
+                "timestamp": 1718194560,
+                "extra": 540
+            },
+            "crowdsourcingEnabled": false,
+            "startTimestamp": 1718194500,
+            "slug": "malaysia-university-pdrm-fc",
+            "lastPeriod": "period1",
+            "finalResultOnly": false,
+            "feedLocked": true,
+            "isEditor": false
+        },
+        {
+            "tournament": {
+                "name": "NM Cup, Women",
+                "slug": "nm-cup-women",
+                "category": {
+                    "name": "Norway",
+                    "slug": "norway",
+                    "sport": {
+                        "name": "Football",
+                        "slug": "football",
+                        "id": 1
+                    },
+                    "id": 5,
+                    "country": {
+                        "alpha2": "NO",
+                        "alpha3": "NOR",
+                        "name": "Norway"
+                    },
+                    "flag": "norway",
+                    "alpha2": "NO"
+                },
+                "uniqueTournament": {
+                    "name": "NM Cup, Women",
+                    "slug": "nm-cup-women",
+                    "primaryColorHex": "#0b244c",
+                    "secondaryColorHex": "#78bee4",
+                    "category": {
+                        "name": "Norway",
+                        "slug": "norway",
+                        "sport": {
+                            "name": "Football",
+                            "slug": "football",
+                            "id": 1
+                        },
+                        "id": 5,
+                        "country": {
+                            "alpha2": "NO",
+                            "alpha3": "NOR",
+                            "name": "Norway"
+                        },
+                        "flag": "norway",
+                        "alpha2": "NO"
+                    },
+                    "userCount": 523,
+                    "id": 1062,
+                    "country": {},
+                    "crowdsourcingEnabled": false,
+                    "hasPerformanceGraphFeature": false,
+                    "hasEventPlayerStatistics": false,
+                    "displayInverseHomeAwayTeams": false
+                },
+                "priority": 0,
+                "isGroup": false,
+                "isLive": false,
+                "id": 65
+            },
+            "season": {
+                "name": "NM Cup Women 2024",
+                "year": "2024",
+                "editor": false,
+                "id": 59149
+            },
+            "roundInfo": {
+                "round": 2,
+                "name": "Round 2",
+                "slug": "round-2"
+            },
+            "customId": "OosRlMb",
+            "status": {
+                "code": 7,
+                "description": "2nd half",
+                "type": "inprogress"
+            },
+            "homeTeam": {
+                "name": "Molde",
+                "slug": "molde",
+                "shortName": "Molde",
+                "gender": "F",
+                "sport": {
+                    "name": "Football",
+                    "slug": "football",
+                    "id": 1
+                },
+                "userCount": 215,
+                "nameCode": "MOL",
+                "national": false,
+                "type": 0,
+                "id": 218092,
+                "country": {
+                    "alpha2": "NO",
+                    "alpha3": "NOR",
+                    "name": "Norway"
+                },
+                "subTeams": [],
+                "teamColors": {
+                    "primary": "#2173b9",
+                    "secondary": "#ffffff",
+                    "text": "#ffffff"
+                }
+            },
+            "awayTeam": {
+                "name": "Kolbotn",
+                "slug": "kolbotn",
+                "shortName": "Kolbotn",
+                "gender": "F",
+                "sport": {
+                    "name": "Football",
+                    "slug": "football",
+                    "id": 1
+                },
+                "userCount": 784,
+                "nameCode": "KLO",
+                "national": false,
+                "type": 0,
+                "id": 739,
+                "country": {
+                    "alpha2": "NO",
+                    "alpha3": "NOR",
+                    "name": "Norway"
+                },
+                "subTeams": [],
+                "teamColors": {
+                    "primary": "#006bae",
+                    "secondary": "#ffffff",
+                    "text": "#ffffff"
+                },
+                "fieldTranslations": {
+                    "nameTranslation": {
+                        "ar": "\u0643\u0648\u0644\u0628\u0648\u062a\u0646",
+                        "ru": "\u0424\u041a \u041a\u043e\u043b\u0431\u043e\u043d"
+                    },
+                    "shortNameTranslation": {}
+                }
+            },
+            "homeScore": {
+                "current": 0,
+                "display": 0,
+                "period1": 0,
+                "period2": 0,
+                "normaltime": 0
+            },
+            "awayScore": {
+                "current": 0,
+                "display": 0,
+                "period1": 0,
+                "period2": 0,
+                "normaltime": 0
+            },
+            "time": {
+                "initial": 2700,
+                "max": 5400,
+                "extra": 540,
+                "currentPeriodStartTimestamp": 1718193660
+            },
+            "changes": {
+                "changes": [
+                    "status.code",
+                    "status.description",
+                    "homeScore.period2",
+                    "awayScore.period2",
+                    "time.currentPeriodStart",
+                    "time.period2Start"
+                ],
+                "changeTimestamp": 1718194240
+            },
+            "hasGlobalHighlights": false,
+            "crowdsourcingDataDisplayEnabled": false,
+            "id": 12397938,
+            "statusTime": {
+                "prefix": "",
+                "initial": 2700,
+                "max": 5400,
+                "timestamp": 1718193660,
+                "extra": 540
+            },
+            "crowdsourcingEnabled": false,
+            "startTimestamp": 1718190000,
+            "slug": "molde-kolbotn",
+            "lastPeriod": "period2",
+            "finalResultOnly": false,
+            "feedLocked": true,
+            "isEditor": false
+        },
+        {
+            "tournament": {
+                "name": "Premier League",
+                "slug": "premier-league",
+                "category": {
+                    "name": "Somalia",
+                    "slug": "somalia",
+                    "sport": {
+                        "name": "Football",
+                        "slug": "football",
+                        "id": 1
+                    },
+                    "id": 1143,
+                    "country": {
+                        "alpha2": "SO",
+                        "alpha3": "SOM",
+                        "name": "Somalia"
+                    },
+                    "flag": "somalia",
+                    "alpha2": "SO"
+                },
+                "uniqueTournament": {
+                    "name": "Premier League",
+                    "slug": "premier-league",
+                    "category": {
+                        "name": "Somalia",
+                        "slug": "somalia",
+                        "sport": {
+                            "name": "Football",
+                            "slug": "football",
+                            "id": 1
+                        },
+                        "id": 1143,
+                        "country": {
+                            "alpha2": "SO",
+                            "alpha3": "SOM",
+                            "name": "Somalia"
+                        },
+                        "flag": "somalia",
+                        "alpha2": "SO"
+                    },
+                    "userCount": 209,
+                    "id": 22403,
+                    "country": {},
+                    "crowdsourcingEnabled": false,
+                    "hasPerformanceGraphFeature": false,
+                    "hasEventPlayerStatistics": false,
+                    "displayInverseHomeAwayTeams": false
+                },
+                "priority": 0,
+                "isGroup": false,
+                "id": 129841
+            },
+            "season": {
+                "name": "23\/24",
+                "year": "23\/24",
+                "editor": true,
+                "id": 60188
+            },
+            "roundInfo": {
+                "round": 14
+            },
+            "customId": "BfhesHfhe",
+            "status": {
+                "code": 20,
+                "description": "Started",
+                "type": "inprogress"
+            },
+            "homeTeam": {
+                "name": "Raadsan",
+                "slug": "raadsan",
+                "shortName": "Raadsan",
+                "gender": "M",
+                "sport": {
+                    "name": "Football",
+                    "slug": "football",
+                    "id": 1
+                },
+                "userCount": 18,
+                "nameCode": "RAA",
+                "national": false,
+                "type": 0,
+                "id": 517782,
+                "country": {
+                    "alpha2": "SO",
+                    "alpha3": "SOM",
+                    "name": "Somalia"
+                },
+                "subTeams": [],
+                "teamColors": {
+                    "primary": "#52b030",
+                    "secondary": "#52b030",
+                    "text": "#ffffff"
+                }
+            },
+            "awayTeam": {
+                "name": "Kigs SC",
+                "slug": "kigs-sc",
+                "shortName": "Kigs SC",
+                "gender": "M",
+                "sport": {
+                    "name": "Football",
+                    "slug": "football",
+                    "id": 1
+                },
+                "userCount": 22,
+                "nameCode": "KSC",
+                "national": false,
+                "type": 0,
+                "id": 517776,
+                "country": {
+                    "alpha2": "SO",
+                    "alpha3": "SOM",
+                    "name": "Somalia"
+                },
+                "subTeams": [],
+                "teamColors": {
+                    "primary": "#52b030",
+                    "secondary": "#52b030",
+                    "text": "#ffffff"
+                }
+            },
+            "homeScore": {
+                "current": 0,
+                "display": 0
+            },
+            "awayScore": {
+                "current": 0,
+                "display": 0
+            },
+            "coverage": -1,
+            "time": {},
+            "changes": {
+                "changeTimestamp": 0
+            },
+            "hasGlobalHighlights": false,
+            "crowdsourcingDataDisplayEnabled": true,
+            "id": 12370591,
+            "crowdsourcingEnabled": true,
+            "startTimestamp": 1718195406,
+            "slug": "raadsan-kigs-sc",
+            "finalResultOnly": false,
+            "feedLocked": false,
+            "isEditor": true
+        },
+        {
+            "tournament": {
+                "name": "Women Super League",
+                "slug": "women-super-league",
+                "category": {
+                    "name": "Uganda",
+                    "slug": "uganda",
+                    "sport": {
+                        "name": "Football",
+                        "slug": "football",
+                        "id": 1
+                    },
+                    "id": 1022,
+                    "country": {
+                        "alpha2": "UG",
+                        "alpha3": "UGA",
+                        "name": "Uganda"
+                    },
+                    "flag": "uganda",
+                    "alpha2": "UG"
+                },
+                "priority": 0,
+                "isLive": false,
+                "id": 77447
+            },
+            "customId": "OxMcsPNZd",
+            "status": {
+                "code": 6,
+                "description": "1st half",
+                "type": "inprogress"
+            },
+            "homeTeam": {
+                "name": "Wakiso Hills",
+                "slug": "wakiso-hills",
+                "shortName": "Wakiso Hills",
+                "gender": "F",
+                "sport": {
+                    "name": "Football",
+                    "slug": "football",
+                    "id": 1
+                },
+                "userCount": 43,
+                "nameCode": "WHI",
+                "disabled": false,
+                "national": false,
+                "type": 0,
+                "id": 499440,
+                "country": {
+                    "alpha2": "UG",
+                    "alpha3": "UGA",
+                    "name": "Uganda"
+                },
+                "subTeams": [],
+                "teamColors": {
+                    "primary": "#52b030",
+                    "secondary": "#52b030",
+                    "text": "#ffffff"
+                }
+            },
+            "awayTeam": {
+                "name": "SHE Corporate FC",
+                "slug": "she-corporate-fc",
+                "shortName": "SHE Corporate FC",
+                "gender": "F",
+                "sport": {
+                    "name": "Football",
+                    "slug": "football",
+                    "id": 1
+                },
+                "userCount": 120,
+                "nameCode": "COR",
+                "disabled": false,
+                "national": false,
+                "type": 0,
+                "id": 343639,
+                "country": {},
+                "subTeams": [],
+                "teamColors": {
+                    "primary": "#52b030",
+                    "secondary": "#52b030",
+                    "text": "#ffffff"
+                }
+            },
+            "homeScore": {
+                "current": 0,
+                "display": 0,
+                "period1": 0,
+                "normaltime": 0
+            },
+            "awayScore": {
+                "current": 0,
+                "display": 0,
+                "period1": 0,
+                "normaltime": 0
+            },
+            "coverage": -1,
+            "time": {
+                "initial": 0,
+                "max": 2700,
+                "extra": 540,
+                "currentPeriodStartTimestamp": 1718194200
+            },
+            "changes": {
+                "changes": [
+                    "status.code",
+                    "status.description",
+                    "status.type",
+                    "homeScore.current",
+                    "homeScore.display",
+                    "homeScore.period1",
+                    "homeScore.normaltime",
+                    "awayScore.current",
+                    "awayScore.display",
+                    "awayScore.period1",
+                    "awayScore.normaltime",
+                    "time.currentPeriodStart",
+                    "time.period1Start"
+                ],
+                "changeTimestamp": 1718194223
+            },
+            "hasGlobalHighlights": false,
+            "crowdsourcingDataDisplayEnabled": false,
+            "id": 12417269,
+            "statusTime": {
+                "prefix": "",
+                "initial": 0,
+                "max": 2700,
+                "timestamp": 1718194200,
+                "extra": 540
+            },
+            "crowdsourcingEnabled": false,
+            "startTimestamp": 1718193600,
+            "slug": "wakiso-hills-she-corporate-fc",
+            "lastPeriod": "period1",
+            "finalResultOnly": false,
+            "feedLocked": true
+        },
+        {
+            "tournament": {
+                "name": "Pro Liga",
+                "slug": "pro-liga",
+                "category": {
+                    "name": "Uzbekistan",
+                    "slug": "uzbekistan",
+                    "sport": {
+                        "name": "Football",
+                        "slug": "football",
+                        "id": 1
+                    },
+                    "id": 385,
+                    "country": {
+                        "alpha2": "UZ",
+                        "alpha3": "UZB",
+                        "name": "Uzbekistan"
+                    },
+                    "flag": "uzbekistan",
+                    "alpha2": "UZ"
+                },
+                "uniqueTournament": {
+                    "name": "Pro Liga",
+                    "slug": "pro-liga",
+                    "category": {
+                        "name": "Uzbekistan",
+                        "slug": "uzbekistan",
+                        "sport": {
+                            "name": "Football",
+                            "slug": "football",
+                            "id": 1
+                        },
+                        "id": 385,
+                        "country": {
+                            "alpha2": "UZ",
+                            "alpha3": "UZB",
+                            "name": "Uzbekistan"
+                        },
+                        "flag": "uzbekistan",
+                        "alpha2": "UZ"
+                    },
+                    "userCount": 962,
+                    "id": 18559,
+                    "country": {},
+                    "crowdsourcingEnabled": false,
+                    "hasPerformanceGraphFeature": false,
+                    "hasEventPlayerStatistics": false,
+                    "displayInverseHomeAwayTeams": false
+                },
+                "priority": 0,
+                "isGroup": false,
+                "isLive": false,
+                "id": 45286
+            },
+            "season": {
+                "name": "Pro Liga 2024",
+                "year": "2024",
+                "editor": false,
+                "id": 58580
+            },
+            "roundInfo": {
+                "round": 12
+            },
+            "customId": "kfqsDaKc",
+            "status": {
+                "code": 31,
+                "description": "Halftime",
+                "type": "inprogress"
+            },
+            "homeTeam": {
+                "name": "FC Do'stlik Toshkent",
+                "slug": "fc-dostlik-toshkent",
+                "shortName": "Do'stlik",
+                "gender": "M",
+                "sport": {
+                    "name": "Football",
+                    "slug": "football",
+                    "id": 1
+                },
+                "userCount": 225,
+                "nameCode": "STL",
+                "national": false,
+                "type": 0,
+                "id": 337528,
+                "country": {
+                    "alpha2": "UZ",
+                    "alpha3": "UZB",
+                    "name": "Uzbekistan"
+                },
+                "subTeams": [],
+                "teamColors": {
+                    "primary": "#52b030",
+                    "secondary": "#52b030",
+                    "text": "#ffffff"
+                }
+            },
+            "awayTeam": {
+                "name": "PFK Xorazm",
+                "slug": "pfk-xorazm",
+                "shortName": "Xorazm",
+                "gender": "M",
+                "sport": {
+                    "name": "Football",
+                    "slug": "football",
+                    "id": 1
+                },
+                "userCount": 530,
+                "nameCode": "XOR",
+                "national": false,
+                "type": 0,
+                "id": 40260,
+                "country": {
+                    "alpha2": "UZ",
+                    "alpha3": "UZB",
+                    "name": "Uzbekistan"
+                },
+                "subTeams": [],
+                "teamColors": {
+                    "primary": "#52b030",
+                    "secondary": "#52b030",
+                    "text": "#ffffff"
+                },
+                "fieldTranslations": {
+                    "nameTranslation": {
+                        "ar": "\u0628\u064a \u0625\u0641 \u0643\u064a\u0647 \u0643\u0633\u0648\u0631\u0627\u0632\u0645",
+                        "ru": "\u041f\u0424\u041a \u0425\u043e\u0440\u0430\u0437\u043c"
+                    },
+                    "shortNameTranslation": {}
+                }
+            },
+            "homeScore": {
+                "current": 0,
+                "display": 0,
+                "period1": 0,
+                "normaltime": 0
+            },
+            "awayScore": {
+                "current": 0,
+                "display": 0,
+                "period1": 0,
+                "normaltime": 0
+            },
+            "time": {
+                "currentPeriodStartTimestamp": 1718193600
+            },
+            "changes": {
+                "changes": [
+                    "status.code",
+                    "status.description"
+                ],
+                "changeTimestamp": 1718196576
+            },
+            "hasGlobalHighlights": false,
+            "crowdsourcingDataDisplayEnabled": false,
+            "id": 12241784,
+            "crowdsourcingEnabled": false,
+            "startTimestamp": 1718193600,
+            "slug": "fc-dostlik-toshkent-pfk-xorazm",
+            "finalResultOnly": false,
+            "feedLocked": true,
+            "isEditor": false
+        }
+    ]
+}
