@@ -1,9 +1,13 @@
 const axios = require("axios");
 const express = require("express");
+const bodyParser = require('body-parser');
 require("dotenv").config();
 
 const app = express();
 const PORT = process.env.PORT || 3001;
+
+// Middleware to parse JSON bodies with increased limit
+app.use(bodyParser.json({ limit: '50mb' }));
 
 // Function to extract matches with league, score, home score, and away score
 function extractMatches(data) {
@@ -114,7 +118,7 @@ function findMatchingMatches(matches1, matches2) {
                 if (match1.homeScore > match2.homeScore) {
                     console.log(match2);
                     matchingMatches.push(match1);
-                    } else if (match1.awayScore > match2.awayScore) {
+                } else if (match1.awayScore > match2.awayScore) {
                     console.log(match2);
                     matchingMatches.push(match1);
                 }
@@ -122,39 +126,6 @@ function findMatchingMatches(matches1, matches2) {
         }
     }
     return matchingMatches;
-}
-
-async function fetchSofaScoreData() {
-    try {
-        const url = `https://www.sofascore.com/api/v1/sport/football/events/live`;
-        const response = await axios.get(url);
-        const data = response.data;
-        const events = data.events;
-        // Extract events
-        const extractedData = extractEventData(events);
-        console.log("Total Live Sofascore Matches: ", extractedData.length);
-
-        return extractedData;
-    } catch (error) {
-        console.error("Error fetching data:", error);
-        return [];
-    }
-}
-
-async function getMatchingMatches() {
-    const sofascoreMatches = await fetchSofaScoreData();
-    const sportybetMatches = await fetchSportyData();
-    const matchingMatches = findMatchingMatches(
-        sofascoreMatches,
-        sportybetMatches
-    );
-    for (let i = 0; i < matchingMatches.length; i++) {
-        let message = encodeURIComponent(
-            `GAME: ${matchingMatches[i].tournament}\nTEAMS: ${matchingMatches[i].homeTeam} vs ${matchingMatches[i].awayTeam}\nSofascore: ${matchingMatches[i].score}\nREVIEW: ${matchingMatches[i].matchLink}`
-        );
-        sendMessage(message);
-    }
-    console.log("Matching matches:", matchingMatches);
 }
 
 const bot_token = process.env.BOT_TOKEN;
@@ -180,17 +151,42 @@ const sendMessage = async text_message => {
 
 // getMatchingMatches();
 
-// Call the function every 3 minutes (3 minutes * 60 seconds * 1000 milliseconds)
-const interval = 3 * 60 * 1000;
-setInterval(getMatchingMatches, interval);
+// Route to handle the incoming football events data
+app.post('/api/setevents', async (req, res) => {
+    const eventsData = req.body;
+    const sofascoreMatches = extractEventData(eventsData?.events);
+    if(sofascoreMatches != undefined || sofascoreMatches.length > 0){
+        console.log("Total Sofascore Live Matches: ", sofascoreMatches.length);
+        const sportybetMatches = await fetchSportyData();
+        const matchingMatches = findMatchingMatches(
+            sofascoreMatches,
+            sportybetMatches
+        );
+        for (let i = 0; i < matchingMatches.length; i++) {
+            let message = encodeURIComponent(
+                `GAME: ${matchingMatches[i].tournament}\nTEAMS: ${matchingMatches[i].homeTeam} vs ${matchingMatches[i].awayTeam}\nSofascore: ${matchingMatches[i].score}\nREVIEW: ${matchingMatches[i].matchLink}`
+            );
+            sendMessage(message);
+        }
+        console.log("Matching matches:", matchingMatches);
+    
+        res.status(200).send('Data received successfully');
+    } else {
+        res.status(400).send('No live match')
+    }
+});
+
+// Serve the HTML file
+app.get('/', (req, res) => {
+    res.sendFile(__dirname + '/pages/index.html');
+});
 
 //main server
-app.get("*", (req, res)=> {
+app.get("*", (req, res) => {
     return res.status(200).end("This isn't a website but an api")
 });
 
 // Start the server
 app.listen(PORT, () => {
     console.log(`Server is listening on port ${PORT}`);
-    getMatchingMatches();
 });

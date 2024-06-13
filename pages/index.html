@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fetch Football Events</title>
+    <script>
+        async function fetchFootballEvents() {
+            try {
+                // Fetch data from the external API
+                const response = await fetch('https://www.sofascore.com/api/v1/sport/football/events/live');
+                const data = await response.json();
+
+                // Send the response data to your Express route
+                const res = await fetch('/api/setevents', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json'
+                    },
+                    body: JSON.stringify(data)
+                });
+
+                if (res.ok) {
+                    console.log('Data sent successfully to /api/setevents');
+                } else {
+                    console.error('Failed to send data to /api/setevents');
+                }
+            } catch (error) {
+                console.error('Error fetching or sending data:', error);
+            }
+        }
+
+        // Fetch football events every 3 minutes (180000 ms)
+        setInterval(fetchFootballEvents, 180000);
+
+        // Initial fetch when the page loads
+        window.onload = fetchFootballEvents;
+    </script>
+</head>
+<body>
+    <h1>Fetching Football Events...</h1>
+</body>
+</html>
