@@ -50,13 +50,11 @@ function checkOutcomeStatus(data) {
     let oddsSuspended = false;
     if (homeOutcome && homeOutcome.isActive) {
         oddsSuspended = false;
-    } else {
-        oddsSuspended = true;
     }
-
-    if (awayOutcome && awayOutcome.isActive) {
+    else if (awayOutcome && awayOutcome.isActive) {
         oddsSuspended = false;
-    } else {
+    }
+    else {
         oddsSuspended = true;
     }
     return oddsSuspended;
