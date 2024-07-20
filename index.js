@@ -5,7 +5,9 @@ require("dotenv").config();
 const app = express();
 const PORT = process.env.PORT || 3001;
 
-// Function to extract matches with league, score, home score, and away score
+let surematches = [];
+
+// Function to extract matches with league, score, home score, and away score from sportybet
 function extractMatches(data) {
     const matches = [];
     try {
@@ -42,7 +44,7 @@ function extractMatches(data) {
     return matches;
 }
 
-// Function to check if the outcome is still available
+// Function to check if the outcome is still available in sportybet
 function checkOutcomeStatus(data) {
     const outcomes = data.data.markets[0].outcomes;
     const homeOutcome = outcomes.find(outcome => outcome.desc === "Home");
@@ -118,8 +120,10 @@ async function fetchSportyData() {
 }
 
 // Function to check if two team names are similar
-function areSimilarTeams(team1, team2) {
-    return team1.includes(team2) || team2.includes(team1);
+function areSimilarTeams(team1_home, team2_home, team1_away, team2_away) {
+    const team_home = team1_home.includes(team2_home) || team2_home.includes(team1_home);
+    const team_away = team1_away.includes(team2_away) || team2_away.includes(team1_away);
+    return team_home && team_away;
 }
 
 // Function to find matches present in both arrays
@@ -128,7 +132,7 @@ function findMatchingMatches(matches1, matches2) {
     for (const match1 of matches1) {
         for (const match2 of matches2) {
             if (
-                areSimilarTeams(match1.homeTeam, match2.homeTeam)
+                areSimilarTeams(match1.homeTeam, match2.homeTeam, match1.awayTeam, match2.awayTeam)
             ) {
                 //Here is where the real money lies. Matches1 is sofascore, while matches2 is sportybet
                 if (match1.homeScore > match2.homeScore) {
@@ -173,6 +177,10 @@ async function getMatchingMatches() {
         sportybetMatches
     );
     for (let i = 0; i < matchingMatches.length; i++) {
+        //Creating a live match to make sure only verified that the odds is suspended but the match hasn't being updated
+        const livematch = `${matchingMatches[i].homeTeam} vs ${matchingMatches[i].awayTeam}`;
+        surematches.push(livematch);
+
         let message = encodeURIComponent(
             `GAME: ${matchingMatches[i].tournament}\nTEAMS: ${matchingMatches[i].homeTeam} vs ${matchingMatches[i].awayTeam}\nSofascore: ${matchingMatches[i].score}\nREVIEW: ${matchingMatches[i].matchLink}`
         );
