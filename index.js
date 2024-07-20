@@ -42,6 +42,26 @@ function extractMatches(data) {
     return matches;
 }
 
+// Function to check if the outcome is still available
+function checkOutcomeStatus(data) {
+    const outcomes = data.data.markets[0].outcomes;
+    const homeOutcome = outcomes.find(outcome => outcome.desc === "Home");
+    const awayOutcome = outcomes.find(outcome => outcome.desc === "Away");
+    let oddsSuspended = false;
+    if (homeOutcome && homeOutcome.isActive) {
+        oddsSuspended = false;
+    } else {
+        oddsSuspended = true;
+    }
+
+    if (awayOutcome && awayOutcome.isActive) {
+        oddsSuspended = false;
+    } else {
+        oddsSuspended = true;
+    }
+    return oddsSuspended;
+};
+
 // Function to extract desired information from events in sofascore
 function extractEventData(events) {
     try {
@@ -55,6 +75,7 @@ function extractEventData(events) {
             const score = `${homeScore} - ${awayScore}`;
             const tournament_id = event.tournament?.id;
             const season_id = event.season?.id;
+            const oddsSuspended = checkOutcomeStatus(event);
             let matchLink = "No Match Link Generated (Please, manually search it on sofascore)";
             if (tournament_id != undefined && season_id != undefined) {
                 matchLink = `https://www.sofascore.com/${event.slug}/${event.customId}#id:${event
@@ -68,7 +89,8 @@ function extractEventData(events) {
                 awayScore,
                 league,
                 tournament: tournamentName,
-                matchLink
+                matchLink,
+                oddsSuspended
             };
         });
     } catch (error) {
@@ -112,11 +134,15 @@ function findMatchingMatches(matches1, matches2) {
             ) {
                 //Here is where the real money lies. Matches1 is sofascore, while matches2 is sportybet
                 if (match1.homeScore > match2.homeScore) {
-                    console.log(match2);
-                    matchingMatches.push(match1);
-                    } else if (match1.awayScore > match2.awayScore) {
-                    console.log(match2);
-                    matchingMatches.push(match1);
+                    if (!match1.oddsSuspended) {
+                        console.log(match2);
+                        matchingMatches.push(match1);
+                    }
+                } else if (match1.awayScore > match2.awayScore) {
+                    if (!match1.oddsSuspended) {
+                        console.log(match2);
+                        matchingMatches.push(match1);
+                    }
                 }
             }
         }
@@ -185,7 +211,7 @@ const interval = 3 * 60 * 1000;
 setInterval(getMatchingMatches, interval);
 
 //main server
-app.get("*", (req, res)=> {
+app.get("*", (req, res) => {
     return res.status(200).end("This isn't a website but an api")
 });
 
