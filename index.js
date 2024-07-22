@@ -7,6 +7,17 @@ const PORT = process.env.PORT || 3001;
 
 let surematches = [];
 
+// Function to remove the first item and all its duplicates from the array
+function removeFirstItemAndDuplicates() {
+    if (surematches.length > 0) {
+        const firstItem = surematches[0];
+        surematches = surematches.filter(item => item !== firstItem);
+    }
+}
+
+// Set interval to call the function every 2 hours 30 minutes (9000000 milliseconds) - clearing the match list
+setInterval(removeFirstItemAndDuplicates, 9000000);
+
 // Function to extract matches with league, score, home score, and away score from sportybet
 function extractMatches(data) {
     const matches = [];
@@ -181,10 +192,15 @@ async function getMatchingMatches() {
         const livematch = `${matchingMatches[i].homeTeam} vs ${matchingMatches[i].awayTeam}`;
         surematches.push(livematch);
 
-        let message = encodeURIComponent(
-            `GAME: ${matchingMatches[i].tournament}\nTEAMS: ${matchingMatches[i].homeTeam} vs ${matchingMatches[i].awayTeam}\nSofascore: ${matchingMatches[i].score}\nREVIEW: ${matchingMatches[i].matchLink}`
-        );
-        sendMessage(message);
+        // ensuring the match has occurred more than once
+        const checkingmatches = surematches.filter(item => item === livematch);
+        if(checkingmatches.length > 1){
+            let message = encodeURIComponent(
+                `GAME: ${matchingMatches[i].tournament}\nTEAMS: ${matchingMatches[i].homeTeam} vs ${matchingMatches[i].awayTeam}\nSofascore: ${matchingMatches[i].score}\nREVIEW: ${matchingMatches[i].matchLink}`
+            );
+            sendMessage(message);
+        }
+
     }
     console.log("Matching matches:", matchingMatches);
 }
