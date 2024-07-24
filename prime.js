@@ -102,8 +102,10 @@ async function fetchSportyData() {
 }
 
 // Function to check if two team names are similar
-function areSimilarTeams(team1, team2) {
-    return team1.includes(team2) || team2.includes(team1);
+function areSimilarTeams(team1_home, team2_home, team1_away, team2_away) {
+    const team_home = team1_home.includes(team2_home) || team2_home.includes(team1_home);
+    const team_away = team1_away.includes(team2_away) || team2_away.includes(team1_away);
+    return team_home && team_away;
 }
 
 // Function to find matches present in both arrays
@@ -112,7 +114,7 @@ function findMatchingMatches(matches1, matches2) {
     for (const match1 of matches1) {
         for (const match2 of matches2) {
             if (
-                areSimilarTeams(match1.homeTeam, match2.homeTeam)
+                areSimilarTeams(match1.homeTeam, match2.homeTeam, match1.awayTeam, match2.awayTeam)
             ) {
                 //Here is where the real money lies. Matches1 is sofascore, while matches2 is sportybet
                 if (match1.homeScore > match2.homeScore) {
