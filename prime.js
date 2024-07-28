@@ -9,6 +9,23 @@ const PORT = process.env.PORT || 3001;
 // Middleware to parse JSON bodies with increased limit
 app.use(bodyParser.json({ limit: '50mb' }));
 
+// Function to check if the outcome is still available in sportybet
+function checkOutcomeStatus(data) {
+    const outcomes = data.markets[0].outcomes;
+    const homeOutcome = outcomes.find(outcome => outcome.desc === "Home");
+    const awayOutcome = outcomes.find(outcome => outcome.desc === "Away");
+    let oddsSuspended = false;
+    if(homeOutcome && (homeOutcome.isActive == 0)){
+        oddsSuspended = true;
+    } else if(awayOutcome && (awayOutcome.isActive == 0)) {
+        oddsSuspended = true;
+    }
+    else {
+        oddsSuspended = false;
+    }
+    return oddsSuspended;
+};
+
 // Function to extract matches with league, score, home score, and away score
 function extractMatches(data) {
     const matches = [];
@@ -24,6 +41,7 @@ function extractMatches(data) {
                     const awayScore = score.split(":")[1];
                     const league = category.categoryName;
                     const tournamentName = category.name;
+                    const oddsSuspended = checkOutcomeStatus(event);
 
                     matches.push({
                         homeTeam: homeTeam,
@@ -32,7 +50,8 @@ function extractMatches(data) {
                         homeScore: homeScore,
                         awayScore: awayScore,
                         league: league,
-                        tournament: tournamentName
+                        tournament: tournamentName,
+                        oddsSuspended: oddsSuspended
                     });
                 }
             });
@@ -118,11 +137,15 @@ function findMatchingMatches(matches1, matches2) {
             ) {
                 //Here is where the real money lies. Matches1 is sofascore, while matches2 is sportybet
                 if (match1.homeScore > match2.homeScore) {
-                    console.log(match2);
-                    matchingMatches.push(match1);
+                    if(!match2.oddsSuspended){
+                        console.log(match2);
+                        matchingMatches.push(match1);
+                    }
                 } else if (match1.awayScore > match2.awayScore) {
-                    console.log(match2);
-                    matchingMatches.push(match1);
+                    if(!match2.oddsSuspended){
+                        console.log(match2);
+                        matchingMatches.push(match1);
+                    }
                 }
             }
         }
@@ -157,7 +180,7 @@ const sendMessage = async text_message => {
 app.post('/api/setevents', async (req, res) => {
     const eventsData = req.body;
     const sofascoreMatches = extractEventData(eventsData?.events);
-    if(sofascoreMatches != undefined || sofascoreMatches.length > 0){
+    if (sofascoreMatches != undefined || sofascoreMatches.length > 0) {
         console.log("Total Sofascore Live Matches: ", sofascoreMatches.length);
         const sportybetMatches = await fetchSportyData();
         const matchingMatches = findMatchingMatches(
@@ -171,7 +194,7 @@ app.post('/api/setevents', async (req, res) => {
             sendMessage(message);
         }
         console.log("Matching matches:", matchingMatches);
-    
+
         res.status(200).send('Data received successfully');
     } else {
         res.status(400).send('No live match')
